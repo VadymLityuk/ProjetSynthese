@@ -4,15 +4,19 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col"; 
 import Button from '@material-ui/core/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Image from 'react-bootstrap/Image'
 
 import Avatar from '@material-ui/core/Avatar';
-
-
+import myimage from '../images/avatar.jpg'
 import './style/main.css'
 import './style/quotes.css'
 
 
 //import '../MainPage/page.css'
+
+const avatar= {
+  avatar: require("../images/ava2.JPG"),
+};
 
 
 export class Accueil extends React.Component {
@@ -24,6 +28,8 @@ constructor(props) {
     this.handleMouseMove = this.handleMouseMove.bind(this);
     this.state = { x: 0, y: 0 };
   }
+
+
 
   handleMouseMove(event) {
     this.setState({
@@ -90,7 +96,7 @@ constructor(props) {
                                 <div class="col-lg-11">
                                     <div class="single_testmonial d-flex align-items-center">
                                         <div class="thumb">
-                                          <Avatar src="" ></Avatar>
+                                          <img src={myimage} alt="ava" />
                                         </div>
                                         <div class="info">
                                             <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering through animal welfare when people might depend on livestock as their only source of income or food.</p>

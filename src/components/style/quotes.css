@@ -78,6 +78,7 @@
     width: auto;
   }
   .testimonial_area .owl-carousel .owl-nav div {
+    background-image: url("");
     font-size: 15px;
     line-height: 50px;
     border: 0;
@@ -100,6 +101,7 @@
   }
   
   .testimonial_area .owl-carousel .owl-nav div.owl-prev {
-    margin-top: 30px;
+    margin-top
+    : 30px;
   }
-  
+
