@@ -3,6 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import { Link } from "react-router-dom";
+import {NavLink} from 'react-router-dom'
+
 import AppBar from '@material-ui/core/AppBar';
 import './style/main.css'
 import './style/header.scss'
@@ -33,7 +36,7 @@ export default function Header() {
                         <div className="col-xl-3 col-lg-2">
                             <div className="logo">
                                 <a href="index.html">
-                                    E Stage
+                                <Link  to={"/Accueil"}>E Stage</Link> 
                                 </a>
                             </div>
                         </div>

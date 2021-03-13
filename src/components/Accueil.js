@@ -51,7 +51,7 @@ constructor(props) {
                             <h3  data-wow-duration="1s" data-wow-delay=".3s">Trouves votre stage!</h3>
                             <p data-wow-duration="1s" data-wow-delay=".4s">We provide online instant cash loans with quick approval that suit your term length</p>
                             <Button variant="outlined" color="primary">
-                                     Primary
+                            Trouve un stage
                             </Button>
                         </div>
                     </div>
@@ -66,14 +66,14 @@ constructor(props) {
                     <div class="searching_text">
                         <h3>À la recherche d'un stage?</h3>
                         <p>Nous fournissons des prêts de trésorerie instantanés en ligne avec une approbation rapide </p>
-                        <a href="#" class="boxed-btn3">Browse Job</a>
+                        <Button style={{backgroundColor: '#00D363',color: 'white' }} variant="contained" href="#" >Trouve un stage</Button>
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-1 col-md-6">
                     <div class="searching_text">
                         <h3>Looking for a Expert?</h3>
                         <p>We provide online instant cash loans with quick approval </p>
-                        <a href="#" class="boxed-btn3">Post a Job</a>
+                        <Button style={{color: '#334A60'}} href="#" >Trouve un stage</Button>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@ constructor(props) {
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section_title text-center mb-40">
-                        <h3>Testimonial</h3>
+                        <h3>Avis et commentaires</h3>
                     </div>
                 </div>
                 <div class="col-xl-12">
