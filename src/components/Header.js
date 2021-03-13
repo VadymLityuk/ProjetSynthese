@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import {NavLink} from 'react-router-dom'
 
 import AppBar from '@material-ui/core/AppBar';
-import './style/main.css'
+//import './style/main.css'
 import './style/header.scss'
 
 const useStyles = makeStyles((theme) => ({
@@ -27,7 +27,6 @@ export default function Header() {
 
   return (
       <>
-          <AppBar>
     <div className="header-area ">
         <div id="sticky-header" className="main-header-area">
             <div className="container-fluid ">
@@ -83,7 +82,6 @@ export default function Header() {
             </div>
         </div>
     </div>
-    </AppBar>
     
 
 

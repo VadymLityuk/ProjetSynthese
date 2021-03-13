@@ -49,7 +49,7 @@ constructor(props) {
                     <div class="col-lg-7 col-md-6">
                         <div class="slider_text">
                             <h3  data-wow-duration="1s" data-wow-delay=".3s">Trouves votre stage!</h3>
-                            <p data-wow-duration="1s" data-wow-delay=".4s">We provide online instant cash loans with quick approval that suit your term length</p>
+                            <p data-wow-duration="1s" data-wow-delay=".4s">L'unique répertoire de stages et de stagiaires au Québec</p>
                             <Button variant="outlined" color="primary">
                             Trouve un stage
                             </Button>
@@ -65,15 +65,15 @@ constructor(props) {
                 <div class="col-lg-5 offset-lg-1 col-md-6">
                     <div class="searching_text">
                         <h3>À la recherche d'un stage?</h3>
-                        <p>Nous fournissons des prêts de trésorerie instantanés en ligne avec une approbation rapide </p>
+                        <p>L'unique répertoire de stages et de stagiaires au Québec </p>
                         <Button style={{backgroundColor: '#00D363',color: 'white' }} variant="contained" href="#" >Trouve un stage</Button>
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-1 col-md-6">
                     <div class="searching_text">
-                        <h3>Looking for a Expert?</h3>
-                        <p>We provide online instant cash loans with quick approval </p>
-                        <Button style={{color: '#334A60'}} href="#" >Trouve un stage</Button>
+                        <h3>Recherche d'un candidat?</h3>
+                        <p>L'unique répertoire de stages et de stagiaires au Québec </p>
+                        <Button style={{color: 'white'}} href="#" >Trouve un candidat</Button>
                     </div>
                 </div>
             </div>
