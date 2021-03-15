@@ -3,6 +3,7 @@ import '../App/App.scss';
 import {Accueil} from '../Accueil'
 import  {Container} from 'react-bootstrap';
 import Header from '../Header'
+import Apropos from '../Apropos'
 
 import Footer from '../Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,6 +20,7 @@ function App() {
       
           <Route path="/" exact component={Accueil} /> 
           <Route path="/Accueil" component={Accueil} /> 
+          <Route path="/Apropos" component={Apropos} /> 
            {/*  <Route path="/Footer" component={Footer} />  */}
          
         

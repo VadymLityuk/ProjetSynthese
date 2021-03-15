@@ -1,6 +1,29 @@
 
 @import "../style/varriables.scss";
 
+
+
+@media (max-width: 767px) {
+    /* pour le Menu Hamburger */
+    .mobile_menu {
+      position: absolute;
+      right: 0px;
+      width: 100%;
+      z-index: 9;
+    }
+  }
+
+    /* mobile menu   */
+
+.mobile_menu {
+	position: absolute;
+	right: 10px;
+	width: 96%;
+	z-index: 99;
+}
+
+
+
 .header-area{
     // position: absolute;
     left: 0;

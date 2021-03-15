@@ -5,11 +5,16 @@ import Col from "react-bootstrap/Col";
 import Button from '@material-ui/core/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'react-bootstrap/Image'
-
+import { Link } from "react-router-dom";
+import {NavLink} from 'react-router-dom'
 import Avatar from '@material-ui/core/Avatar';
 import myimage from '../images/avatar.jpg'
+import office from '../images/off2.png'
+import { makeStyles } from '@material-ui/core/styles';
 import './style/main.css'
 import './style/quotes.css'
+
+import './style/slider.scss'
 
 
 //import '../MainPage/page.css'
@@ -50,7 +55,7 @@ constructor(props) {
                         <div class="slider_text">
                             <h3  data-wow-duration="1s" data-wow-delay=".3s">Trouves votre stage!</h3>
                             <p data-wow-duration="1s" data-wow-delay=".4s">L'unique répertoire de stages et de stagiaires au Québec</p>
-                            <Button variant="outlined" color="primary">
+                            <Button variant="contained" style={{backgroundColor: 'rgb(0, 211, 99)',color: 'white'}}>
                             Trouve un stage
                             </Button>
                         </div>
@@ -58,7 +63,45 @@ constructor(props) {
                 </div>
             </div>
         </div>
+        <div class="ilstration_img  d-none d-lg-block text-right" >
+        <img src={myimage} alt="ava" />
+        </div>
     </div>
+    <div class="section-top-border">
+				<div class="row">
+					<div class="col-md-3">
+						<img  src={office} alt="" class="img-fluid"/>
+					</div>
+					<div class="col-md-9 mt-sm-20 info">
+                    <h5 > Étudiants</h5>
+						<p style={{fontWeight:'500', color: 'rgb(168, 168, 177)'}}>
+                        Crée ton compte gratuitement pour mettre en valeur ta candidature
+                        Sois visible auprès des entreprises
+                        Consulte et postule pour les offres de stages et des emplois
+                        Trouve rapidement le stage qui te ressemble, à la hauteur de tes ambitions dans ta région d'étude ou à l'extérieur
+                        Découvrir un monde de possibilités!
+                        </p>
+                        <h5 >Travailleur/chercheur d'emploi</h5>
+                       <p style={{fontWeight:'500', color: 'rgb(168, 168, 177)'}}>
+                        Crée ton compte gratuitement pour préciser tes champs d'intérêts de requalification
+                        Sois visible auprès des entreprises à la recherche de talents
+                        Trouve un nouveau métier qui rejoint tes ambitions dans ta région ou à l'extérieur pour lequel une entreprise participera activement à ta formation
+                        Découvrir un monde de possibilités!
+                       </p>
+                            <div class="slider_text">
+                                <hr/>
+                            <h6>S'inscrire ou se connecter</h6>
+                            <Link  to={"/Apropos"}>
+                            <Button variant="contained" style={{ backgroundColor:'#3c82df',color: 'white'}}>
+                            Accéder à votre compte 
+                            </Button>    
+                            </Link> 
+                        </div>
+					</div>
+
+                    
+				</div>
+                </div>
     <div class="job_searcing_wrap overlay">
         <div class="container">
             <div class="row">
@@ -99,7 +142,7 @@ constructor(props) {
                                           <img src={myimage} alt="ava" />
                                         </div>
                                         <div class="info">
-                                            <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering through animal welfare when people might depend on livestock as their only source of income or food.</p>
+                                            <p >"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering through animal welfare when people might depend on livestock as their only source of income or food.</p>
                                             <span>- Micky Mouse</span>
                                         </div>
                                     </div>

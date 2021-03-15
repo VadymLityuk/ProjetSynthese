@@ -10,6 +10,22 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import PinterestIcon from '@material-ui/icons/Pinterest';
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
+
+
+function Copyright() {
+    return (
+      <Typography variant="body2" color="textSecondary" align="center">
+        {'Copyright © '}
+        <Link color="inherit" href="https://github.com/VadymLityuk">
+          Vadim Lityuk
+        </Link>{' '}
+        {new Date().getFullYear()}
+        {'.'}
+      </Typography>
+    );
+  }
 
 export default function Footer() {
  // const classes = useStyles();
@@ -26,11 +42,12 @@ export default function Footer() {
                                 <a href="#">
                                     <img src="img/logo.png" alt=""/>
                                 </a>
+                                <Copyright />
                             </div>
-                            <p>
+                            
+                            <p> 
                                 vad@support.com <br/>
                                 +1 581 672 6782 <br/>
-                                600/D, Green road, NewYork
                             </p>
                             <div class="socail_links">
                                 <ul>
@@ -56,7 +73,6 @@ export default function Footer() {
                                     </li>
                                 </ul>
                             </div>
-
                         </div>
                     </div>
                     <div class="col-xl-2 col-md-6 col-lg-2">

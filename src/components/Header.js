@@ -2,7 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import { Link } from "react-router-dom";
 import {NavLink} from 'react-router-dom'
 
@@ -43,8 +42,7 @@ export default function Header() {
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="index.html">home</a></li>
-                                        <li><a href="jobs.html">Browse Job</a></li>
+                                        <li><a href="index.html">Accueil</a></li>
                                         <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="candidate.html">Candidates </a></li>
@@ -65,11 +63,10 @@ export default function Header() {
                         </div>
                         <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                             <div class="Appointment">
-                                <div class="phone_num d-none d-xl-block">
-                                    <a href="#">Log in</a>
-                                </div>
                                 <div class="d-none d-lg-block">
-                                    <a class="boxed-btn3" href="#">Post a Job</a>
+                                    <Link to={'/Apropos'}>
+                        <Button style={{backgroundColor: '#00D363',color: 'white' }} variant="contained" href="#" >Connexion</Button>
+                        </Link>
                                 </div>
                             </div>
                         </div>
