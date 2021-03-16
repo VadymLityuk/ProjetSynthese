@@ -17,16 +17,9 @@ import stager from '../images/stager.png'
 import office from '../images/logoban.png'
 import './style/main.css'
 import './style/quotes.css'
-import CssBaseline from '@material-ui/core/CssBaseline';
-import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
-import Typography from '@material-ui/core/Typography';
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import MenuItem from '@material-ui/core/MenuItem';
 import MYDATA from '../liststage.json'
 import CANDIDAT from '../candidats.json'
 import ShareIcon from '@material-ui/icons/Share';
