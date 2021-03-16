@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import {NavLink} from 'react-router-dom'
 import Avatar from '@material-ui/core/Avatar';
 import myimage from '../images/avatar.jpg'
-import office from '../images/off2.png'
+import office from '../images/office.jpg'
 import { makeStyles } from '@material-ui/core/styles';
 import './style/main.css'
 import './style/quotes.css'
@@ -70,7 +70,7 @@ constructor(props) {
     <div class="section-top-border">
 				<div class="row">
 					<div class="col-md-3">
-						<img  src={office} alt="" class="img-fluid"/>
+						<img   src={office} alt="" class="img-fluid"/>
 					</div>
 					<div class="col-md-9 mt-sm-20 info">
                     <h5 > Étudiants</h5>

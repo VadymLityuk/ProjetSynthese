@@ -12,7 +12,8 @@ import Grid from '@material-ui/core/Grid';
 import {NavLink} from 'react-router-dom'
 import Avatar from '@material-ui/core/Avatar';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import myimage from '../images/avatar.jpg'
+import myimage from '../images/office.jpg'
+import sign from '../images/sign.png'
 import './style/main.css'
 import './style/quotes.css'
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -85,7 +86,7 @@ const useStyles = makeStyles((theme) => ({
             </div>
         </div>
         <div class="ilstration_img  d-none d-lg-block text-right" >
-        <img src={myimage} alt="ava" />
+        <img src={sign} alt="ava" />
         </div>
     </div>
     <div style={{paddingBottom: '40px'}}>
