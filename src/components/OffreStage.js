@@ -177,7 +177,7 @@ const useStyles = makeStyles((theme) => ({
         <Grid item lg={12} xs={12}>
             <Link to={"/Stages"}>
                 <div style={{padding: '13px'}}>
-        <Button style={{color: 'white',backgroundColor:'#00D363'}} variant="contained" >voir tous les offres</Button>
+        <Button style={{boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }} class="boxed-btn3" variant="contained" >voir tous les offres</Button>
         </div>
         </Link>
         <hr/>
@@ -187,6 +187,14 @@ const useStyles = makeStyles((theme) => ({
                         <div class="slider_text" >
                             <h3>Trouves des stagiaires
                             </h3>
+                            <div class="col-lg-6">
+                                        <div class="single_field">
+                          <input style={{boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px' }} type="text" placeholder="Recherche par profession..."
+                           onChange={event =>{
+                               setSearchTerm(event.target.value);
+                               }}/> 
+                        </div>
+                           </div>   
                            </div>
                             <div class="row align-items-center">
                                 <div class="col-md-6">
@@ -300,8 +308,12 @@ const useStyles = makeStyles((theme) => ({
                                     </div>
                                 </div>
                             </div>
-                            <Button style={{padding: '12px',color: '#00D363',fontWeight:'500'}}>voir tous les stagiaires</Button>
         </Grid>
+        <Link  to={"/Stages"}>
+                <div style={{padding: '29px'}}>
+        <Button style={{boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }} class="boxed-btn3" variant="contained">voir tous les stagiaires</Button>
+        </div>
+        </Link>
         <hr/>
     <div class="section-top-border">
 				<div class="row">

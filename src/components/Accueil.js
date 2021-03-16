@@ -56,7 +56,7 @@ constructor(props) {
                             <h3  data-wow-duration="1s" data-wow-delay=".3s">Trouves votre stage Aujourd'hui!</h3>
                             <p data-wow-duration="1s" data-wow-delay=".4s">L'unique répertoire de stages et de stagiaires au Québec.Trouves votre stage ou des stagiaires </p>
                             <Link to={"/Offre"}>
-                            <Button variant="contained" style={{backgroundColor: 'rgb(0, 211, 99)',color: 'white'}}>
+                            <Button style={{boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }} class="boxed-btn3" variant="contained" >
                             Trouve un stage
                             </Button>
                             </Link>
@@ -109,7 +109,7 @@ constructor(props) {
                     <div class="searching_text">
                         <h3>À la recherche d'un stage?</h3>
                         <p>L'unique répertoire de stages et de stagiaires au Québec </p>
-                        <Link to={"/Stages"}>
+                        <Link to={"/Offre"}>
                         <Button style={{backgroundColor: '#00D363',color: 'white' }} variant="contained" href="#" >Trouve un stage</Button>
                         </Link>
                     </div>
