@@ -53,11 +53,13 @@ constructor(props) {
                 <div class="row align-items-center">
                     <div class="col-lg-7 col-md-6">
                         <div class="slider_text">
-                            <h3  data-wow-duration="1s" data-wow-delay=".3s">Trouves votre stage!</h3>
-                            <p data-wow-duration="1s" data-wow-delay=".4s">L'unique répertoire de stages et de stagiaires au Québec</p>
+                            <h3  data-wow-duration="1s" data-wow-delay=".3s">Trouves votre stage Aujourd'hui!</h3>
+                            <p data-wow-duration="1s" data-wow-delay=".4s">L'unique répertoire de stages et de stagiaires au Québec.Trouves votre stage ou des stagiaires </p>
+                            <Link to={"/Offre"}>
                             <Button variant="contained" style={{backgroundColor: 'rgb(0, 211, 99)',color: 'white'}}>
                             Trouve un stage
                             </Button>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -44,7 +44,7 @@ export default function Header() {
                                     <ul id="navigation">
                                         <li><a href="index.html">Accueil</a></li>
                                         <Link to={'/Offre'}>
-                                        <li><a href="elements.html">Offre</a></li>
+                                        <li><a href="elements.html">Trouves une stage</a></li>
                                         </Link>
                                         <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">

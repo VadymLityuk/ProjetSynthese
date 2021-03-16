@@ -35,19 +35,19 @@ import './style/slider.scss'
 const jobs = [
     {
       value: '1',
-      label: 'Developpeur',
+      label: 'Programmation',
     },
     {
         value: '2',
-        label: 'Maneger',
+        label: 'Ingénierie',
     },
     {
         value: '3',
-        label: 'Developpeur',
+        label: 'Ventes et Marketing',
     },
     {
         value: '4',
-        label: 'Developpeur',
+        label: 'Finance',
     },
   ];
 
@@ -125,38 +125,17 @@ const useStyles = makeStyles((theme) => ({
     </div>
         </Grid>
         <Grid item lg={12} xs={12}>
-     
         <div class="col-lg-9">
                     <div class="recent_joblist_wrap">
                         <div class="recent_joblist white-bg ">
                         <div class="slider_text" >
                             <h3 >Trouves votre stage
                             </h3>
-                            <hr/>
                            </div>
                             <div class="row align-items-center">
                                 <div class="col-md-6">
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="serch_cat d-flex justify-content-end">
-                                    <TextField
-                                        id="outlined-select-currency-native"
-                                        select
-                                        label="Le plus récent"
-                                        value={currency}
-                                        onChange={handleChange}
-                                  SelectProps={{
-                                     native: true,
-                                              }}
-                                        helperText="Veuillez sélectionner vos emplois"
-                                        variant="outlined"
-                                        >
-                                  {jobs.map((option) => (
-                           <option key={option.value} value={option.value}>
-                                 {option.label}
-                           </option>
-                                    ))}</TextField>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -264,7 +243,9 @@ const useStyles = makeStyles((theme) => ({
                                     </div>
                                 </div>
                             </div>
-                            <a style={{padding: '18px'}}>voir plus</a>
+                            <Link to={"/Stages"}>
+                            <Button style={{padding: '12px',color: '#00D363',fontWeight:'500'}}>Voir toutes les offres</Button>
+                            </Link>
         </Grid>
        
         <Grid item lg={12} xs={12}>
@@ -280,25 +261,7 @@ const useStyles = makeStyles((theme) => ({
                                 <div class="col-md-6">
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="serch_cat d-flex justify-content-end">
-                                    <TextField
-                                        id="outlined-select-currency-native"
-                                        select
-                                        label="Le plus récent"
-                                        value={currency}
-                                        onChange={handleChange}
-                                  SelectProps={{
-                                     native: true,
-                                              }}
-                                        helperText="Veuillez sélectionner vos emplois"
-                                        variant="outlined"
-                                        >
-                                  {jobs.map((option) => (
-                           <option key={option.value} value={option.value}>
-                                 {option.label}
-                           </option>
-                                    ))}</TextField>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -406,7 +369,7 @@ const useStyles = makeStyles((theme) => ({
                                     </div>
                                 </div>
                             </div>
-                            <a style={{padding: '18px'}}>voir plus</a>
+                            <Button style={{padding: '12px',color: '#00D363',fontWeight:'500'}}>voir tous les stagiaires</Button>
         </Grid>
         <hr/>
     <div class="section-top-border">
