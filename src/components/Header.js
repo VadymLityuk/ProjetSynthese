@@ -50,9 +50,9 @@ export default function Header() {
                                         </Link>
                                         <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="candidate.html">Candidates </a></li>
-                                                <li><a href="job_details.html">job details </a></li>
-                                                <li><a href="elements.html">elements</a></li>
+                                                <li><a href="candidate.html">Stagiaires </a></li>
+                                                <li><a href="job_details.html">Stages</a></li>
+                                                <li><a href="job_details.html">Tous les Offres</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">blog <i class="ti-angle-down"></i></a>

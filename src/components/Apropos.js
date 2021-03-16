@@ -131,7 +131,7 @@ const useStyles = makeStyles((theme) => ({
           />
           <FormControlLabel
             control={<Checkbox value="remember" color="primary" />}
-            label="Remember me"
+            label="Mémoriser mon code"
           />
           <Button
             type="submit"
@@ -146,7 +146,7 @@ const useStyles = makeStyles((theme) => ({
           <Grid container>
             <Grid item xs>
               <Link href="#" variant="body2">
-                Forgot password?
+              Mot de passe oublié?
               </Link>
             </Grid>
           </Grid>
@@ -238,23 +238,11 @@ const useStyles = makeStyles((theme) => ({
 						<img  src={myimage} alt="" class="img-fluid"/>
 					</div>
 					<div class="col-md-9 mt-sm-20 info">
-						<p style={{fontWeight:'500', color: 'rgb(168, 168, 177)'}}>Recently, the US Federal government banned online casinos from operating in America by making
-							it illegal to
-							transfer money to them through any US bank or payment system. As a result of this law, most
-							of the popular
-							online casino networks such as Party Gaming and PlayTech left the United States. Overnight,
-							online casino
-							players found themselves being chased by the Federal government. But, after a fortnight, the
-							online casino
-							industry came up with a solution and new online casinos started taking root. These began to
-							operate under a
-							different business umbrella, and by doing that, rendered the transfer of money to and from
-							them legal. A major
-							part of this was enlisting electronic banking systems that would accept this new
-							clarification and start doing
-							business with me. Listed in this article are the electronic banking systems that accept
-							players from the United
-							States that wish to play in online casinos.</p>
+						<p style={{fontWeight:'500', color: 'rgb(168, 168, 177)'}}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.".
+          </p>
                             <div class="slider_text">
                                 <hr/>
                             <h6>Copyright © Vadim Lityuk 2021.</h6>
