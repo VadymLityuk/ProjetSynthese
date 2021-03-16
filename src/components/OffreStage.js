@@ -13,7 +13,8 @@ import {NavLink} from 'react-router-dom'
 import Avatar from '@material-ui/core/Avatar';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import myimage from '../images/6.svg'
-import sign from '../images/sign.png'
+import stager from '../images/stager.png'
+import office from '../images/office.jpg'
 import './style/main.css'
 import './style/quotes.css'
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -129,8 +130,9 @@ const useStyles = makeStyles((theme) => ({
                     <div class="recent_joblist_wrap">
                         <div class="recent_joblist white-bg ">
                         <div class="slider_text" >
-                            <h3>Trouves votre stage
+                            <h3 >Trouves votre stage
                             </h3>
+                            <hr/>
                            </div>
                             <div class="row align-items-center">
                                 <div class="col-md-6">
@@ -169,7 +171,7 @@ const useStyles = makeStyles((theme) => ({
                                             <img src={myimage} alt=""/> 
                                         </div>
                                         <div class="jobs_conetent">
-                                            <a href="job_details.html"><h5>Front End Développeur</h5></a>
+                                            <a ><h5>Front End Développeur</h5></a>
                                             <div class="links_locat d-flex align-items-center">
                                                 <div class="location">
                                                     <p style={{color: 'gray',padding:'2px'}}>
@@ -185,8 +187,8 @@ const useStyles = makeStyles((theme) => ({
                                     </div>
                                     <div class="jobs_right">
                                         <div class="apply_now">
-                                            <a class="heart_mark" href="#"><FavoriteIcon /></a>
-                                            <Button href="job_details.html" class="boxed-btn3" variant="contained">Apply Now</Button>
+                                            <a class="heart_mark" ><FavoriteIcon /></a>
+                                            <Button  class="boxed-btn3" variant="contained">Apply Now</Button>
                                         </div>
                                         <div class="date">
                                             <p>31 Mars 2021</p>
@@ -203,7 +205,7 @@ const useStyles = makeStyles((theme) => ({
                                             <img src={myimage} alt=""/> 
                                         </div>
                                         <div class="jobs_conetent">
-                                            <a href="job_details.html"><h5>Front End Développeur</h5></a>
+                                            <a ><h5>Front End Développeur</h5></a>
                                             <div class="links_locat d-flex align-items-center">
                                                 <div class="location">
                                                     <p style={{color: 'gray',padding:'2px'}}>
@@ -219,8 +221,8 @@ const useStyles = makeStyles((theme) => ({
                                     </div>
                                     <div class="jobs_right">
                                         <div class="apply_now">
-                                            <a class="heart_mark" href="#"><FavoriteIcon /></a>
-                                            <Button href="job_details.html" class="boxed-btn3" variant="contained">Apply Now</Button>
+                                            <a class="heart_mark"><FavoriteIcon /></a>
+                                            <Button class="boxed-btn3" variant="contained">Apply Now</Button>
                                         </div>
                                         <div class="date">
                                             <p>31 Mars 2021</p>
@@ -237,7 +239,7 @@ const useStyles = makeStyles((theme) => ({
                                             <img src={myimage} alt=""/> 
                                         </div>
                                         <div class="jobs_conetent">
-                                            <a href="job_details.html"><h5>Front End Développeur</h5></a>
+                                            <a ><h5>Front End Développeur</h5></a>
                                             <div class="links_locat d-flex align-items-center">
                                                 <div class="location">
                                                     <p style={{color: 'gray',padding:'2px'}}>
@@ -253,8 +255,8 @@ const useStyles = makeStyles((theme) => ({
                                     </div>
                                     <div class="jobs_right">
                                         <div class="apply_now">
-                                            <a class="heart_mark" href="#"><FavoriteIcon /></a>
-                                            <Button href="job_details.html" class="boxed-btn3" variant="contained">Apply Now</Button>
+                                            <a class="heart_mark" ><FavoriteIcon /></a>
+                                            <Button  class="boxed-btn3" variant="contained">Apply Now</Button>
                                         </div>
                                         <div class="date">
                                             <p>31 Mars 2021</p>
@@ -307,16 +309,16 @@ const useStyles = makeStyles((theme) => ({
         <div class="col-lg-12 col-md-12">
                                 <div class="single_jobs white-bg d-flex justify-content-between" style={{backgroundColor: 'white',boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}}>
                                     <div class="jobs_left d-flex align-items-center">
-                                        <div class="thumb" style={{paddingRight: '6px',marginBottom: '6px'}}>
-                                            <img src={myimage} alt=""/> 
+                                        <div class="thumb">
+                                            <img src={stager} alt=""/> 
                                         </div>
                                         <div class="jobs_conetent">
-                                            <a href="job_details.html"><h5>Front End Développeur</h5></a>
+                                            <a ><h5>Front End Développeur</h5></a>
                                             <div class="links_locat d-flex align-items-center">
                                                 <div class="location">
                                                     <p style={{color: 'gray',padding:'2px'}}>
                                                     <LocationOnIcon  style={{color: 'lightgray',padding:'2px'}}/>
-                                                     Québec, QC</p>
+                                                     Québec</p>
                                                 </div>
                                                 <div class="location" style={{color: 'gray',padding:'2px'}}>
                                                     <p><AccessTimeIcon style={{color: 'lightgray',padding:'2px'}}/> 
@@ -327,8 +329,8 @@ const useStyles = makeStyles((theme) => ({
                                     </div>
                                     <div class="jobs_right">
                                         <div class="apply_now">
-                                            <a class="heart_mark" href="#"><FavoriteIcon /></a>
-                                            <Button href="job_details.html" class="boxed-btn3" variant="contained">Apply Now</Button>
+                                            <a class="heart_mark" ><FavoriteIcon /></a>
+                                            <Button  class="boxed-btn3" variant="contained">Apply Now</Button>
                                         </div>
                                         <div class="date">
                                             <p>31 Mars 2021</p>
@@ -341,16 +343,16 @@ const useStyles = makeStyles((theme) => ({
         <div class="col-lg-12 col-md-12">
                                 <div class="single_jobs white-bg d-flex justify-content-between" style={{backgroundColor: 'white',boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}}>
                                     <div class="jobs_left d-flex align-items-center">
-                                        <div class="thumb" style={{paddingRight: '6px',marginBottom: '6px'}}>
-                                            <img src={myimage} alt=""/> 
+                                        <div class="thumb" >
+                                            <img src={stager} alt=""/> 
                                         </div>
                                         <div class="jobs_conetent">
-                                            <a href="job_details.html"><h5>Front End Développeur</h5></a>
+                                            <a ><h5>Front End Développeur</h5></a>
                                             <div class="links_locat d-flex align-items-center">
                                                 <div class="location">
                                                     <p style={{color: 'gray',padding:'2px'}}>
                                                     <LocationOnIcon  style={{color: 'lightgray',padding:'2px'}}/>
-                                                     Québec, QC</p>
+                                                     Québec</p>
                                                 </div>
                                                 <div class="location" style={{color: 'gray',padding:'2px'}}>
                                                     <p><AccessTimeIcon style={{color: 'lightgray',padding:'2px'}}/> 
@@ -361,8 +363,8 @@ const useStyles = makeStyles((theme) => ({
                                     </div>
                                     <div class="jobs_right">
                                         <div class="apply_now">
-                                            <a class="heart_mark" href="#"><FavoriteIcon /></a>
-                                            <Button href="job_details.html" class="boxed-btn3" variant="contained">Apply Now</Button>
+                                            <a class="heart_mark" ><FavoriteIcon /></a>
+                                            <Button  class="boxed-btn3" variant="contained">Apply Now</Button>
                                         </div>
                                         <div class="date">
                                             <p>31 Mars 2021</p>
@@ -375,16 +377,16 @@ const useStyles = makeStyles((theme) => ({
         <div class="col-lg-12 col-md-12">
                                 <div class="single_jobs white-bg d-flex justify-content-between" style={{backgroundColor: 'white',boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}}>
                                     <div class="jobs_left d-flex align-items-center">
-                                        <div class="thumb" style={{paddingRight: '6px',marginBottom: '6px'}}>
-                                            <img src={myimage} alt=""/> 
+                                        <div >
+                                            <img src={stager} alt=""/> 
                                         </div>
                                         <div class="jobs_conetent">
-                                            <a href="job_details.html"><h5>Front End Développeur</h5></a>
+                                            <a ><h5>Front End Développeur</h5></a>
                                             <div class="links_locat d-flex align-items-center">
                                                 <div class="location">
                                                     <p style={{color: 'gray',padding:'2px'}}>
                                                     <LocationOnIcon  style={{color: 'lightgray',padding:'2px'}}/>
-                                                     Québec, QC</p>
+                                                     Québec</p>
                                                 </div>
                                                 <div class="location" style={{color: 'gray',padding:'2px'}}>
                                                     <p><AccessTimeIcon style={{color: 'lightgray',padding:'2px'}}/> 
@@ -395,8 +397,8 @@ const useStyles = makeStyles((theme) => ({
                                     </div>
                                     <div class="jobs_right">
                                         <div class="apply_now">
-                                            <a class="heart_mark" href="#"><FavoriteIcon /></a>
-                                            <Button href="job_details.html" class="boxed-btn3" variant="contained">Apply Now</Button>
+                                            <a class="heart_mark" ><FavoriteIcon /></a>
+                                            <Button  class="boxed-btn3" variant="contained">Apply Now</Button>
                                         </div>
                                         <div class="date">
                                             <p>31 Mars 2021</p>
@@ -406,6 +408,40 @@ const useStyles = makeStyles((theme) => ({
                             </div>
                             <a style={{padding: '18px'}}>voir plus</a>
         </Grid>
+        <hr/>
+    <div class="section-top-border">
+				<div class="row">
+					<div class="col-md-3">
+						<img   src={office} alt="" class="img-fluid"/>
+					</div>
+					<div class="col-md-9 mt-sm-20 info">
+                    <h5 > Étudiants</h5>
+						<p style={{fontWeight:'500', color: 'rgb(168, 168, 177)'}}>
+                        Crée ton compte gratuitement pour mettre en valeur ta candidature
+                        Sois visible auprès des entreprises
+                        Consulte et postule pour les offres de stages et des emplois
+                        Trouve rapidement le stage qui te ressemble, à la hauteur de tes ambitions dans ta région d'étude ou à l'extérieur
+                        Découvrir un monde de possibilités!
+                        </p>
+                        <h5 >Travailleur/chercheur d'emploi</h5>
+                       <p style={{fontWeight:'500', color: 'rgb(168, 168, 177)'}}>
+                        Crée ton compte gratuitement pour préciser tes champs d'intérêts de requalification
+                        Sois visible auprès des entreprises à la recherche de talents
+                        Trouve un nouveau métier qui rejoint tes ambitions dans ta région ou à l'extérieur pour lequel une entreprise participera activement à ta formation
+                        Découvrir un monde de possibilités!
+                       </p>
+                            <div class="slider_text">
+                                <hr/>
+                            <h6>S'inscrire ou se connecter</h6>
+                            <Link  to={"/Apropos"}>
+                            <Button variant="contained" style={{ backgroundColor:'#3c82df',color: 'white'}}>
+                            Accéder à votre compte 
+                            </Button>    
+                            </Link> 
+                        </div>
+					</div>
+				</div>
+        </div>
       </Grid>
       
     </div>

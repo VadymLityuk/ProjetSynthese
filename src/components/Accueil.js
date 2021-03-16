@@ -98,8 +98,6 @@ constructor(props) {
                             </Link> 
                         </div>
 					</div>
-
-                    
 				</div>
                 </div>
     <div class="job_searcing_wrap overlay">
