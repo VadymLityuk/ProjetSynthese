@@ -14,7 +14,7 @@ import Avatar from '@material-ui/core/Avatar';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import myimage from '../images/6.svg'
 import stager from '../images/stager.png'
-import office from '../images/office.jpg'
+import office from '../images/logoban.png'
 import './style/main.css'
 import './style/quotes.css'
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -30,6 +30,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import MYDATA from '../liststage.json'
 import CANDIDAT from '../candidats.json'
 import ShareIcon from '@material-ui/icons/Share';
+import apropos from '../images/apropos.png'
 import './style/offre.scss'
 import {useState} from 'react'
 import './style/slider.scss'
@@ -100,7 +101,7 @@ const useStyles = makeStyles((theme) => ({
             </div>
         </div>
         <div class="ilstration_img  d-none d-lg-block text-right" >
-        {/* <img src={sign} alt="ava" />   */}
+        <img src={apropos} alt="ava" />   
         </div>
     </div>
         </Grid>

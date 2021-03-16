@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import {NavLink} from 'react-router-dom'
 import Avatar from '@material-ui/core/Avatar';
 import myimage from '../images/avatar.jpg'
+import logoban from '../images/logoban.png'
 import office from '../images/office.jpg'
 import { makeStyles } from '@material-ui/core/styles';
 import './style/main.css'
@@ -66,7 +67,7 @@ constructor(props) {
             </div>
         </div>
         <div class="ilstration_img  d-none d-lg-block text-right" >
-        <img src={myimage} alt="ava" />
+        <img src={logoban} alt="ava" />
         </div>
     </div>
     <div class="section-top-border">

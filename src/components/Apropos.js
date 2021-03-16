@@ -22,7 +22,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
-
+import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 import './style/slider.scss'
 
 
@@ -88,6 +88,10 @@ const useStyles = makeStyles((theme) => ({
         <div class="ilstration_img  d-none d-lg-block text-right" >
         <img src={sign} alt="ava" />
         </div>
+        
+        <Link to={"/Accueil"}>
+                    <p style={{fontWeight:'500', color: 'rgb(168, 168, 177)'}}>  <ArrowLeftIcon/> Retourner à la page d'Accueil</p>
+                    </Link>
     </div>
     <div style={{paddingBottom: '40px'}}>
     <Grid container spacing={3}>
@@ -95,6 +99,7 @@ const useStyles = makeStyles((theme) => ({
         <Container  xs={6} component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
+        
         <Avatar  className={classes.avatar}>
           <LockOutlinedIcon />
         </Avatar>
@@ -149,7 +154,7 @@ const useStyles = makeStyles((theme) => ({
       </div>
     </Container>
         </Grid>
-<Grid item  lg={6} xs={12}>
+<Grid item  lg={6} xs={12} >
     <div className={classes.paper}>
             <Avatar className={classes.avatar}>
           <AccountCircleIcon />

@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
 import {NavLink} from 'react-router-dom'
-
+import logo from '../images/logo.png'
 import AppBar from '@material-ui/core/AppBar';
 //import './style/main.css'
 import './style/header.scss'
@@ -34,7 +34,9 @@ export default function Header() {
                         <div className="col-xl-3 col-lg-2">
                             <div className="logo">
                                 <a href="index.html">
-                                <Link  to={"/Accueil"}>E Stage</Link> 
+                                <Link  to={"/Accueil"}>
+                                <img src={logo} alt=""/>
+                                    </Link> 
                                 </a>
                             </div>
                         </div>
