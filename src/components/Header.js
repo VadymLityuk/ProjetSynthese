@@ -43,6 +43,9 @@ export default function Header() {
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="index.html">Accueil</a></li>
+                                        <Link to={'/Offre'}>
+                                        <li><a href="elements.html">Offre</a></li>
+                                        </Link>
                                         <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="candidate.html">Candidates </a></li>

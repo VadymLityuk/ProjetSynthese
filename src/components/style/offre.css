@@ -1,0 +1,504 @@
+
+
+.job_listing_area .job_lists .single_jobs .jobs_left .thumb {
+    float: left;
+    width: 82px;
+    height: 82px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 15px;
+    background: #F5F7FA;
+    margin-right: 25px;
+    border: 1px solid #F0F0F0;
+  }
+  .job_details_area .single_jobs .jobs_right .apply_now a.heart_mark {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #00D363;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    background: #EFFDF5;
+  }
+.recent_joblist {
+    padding: 15px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .recent_joblist {
+      margin-top: 40px;
+    }
+  }
+  .recent_joblist h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    color: #001D38;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .recent_joblist h4 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .recent_joblist .serch_cat {
+      display: block !important;
+    }
+  }
+  
+  .nice-select {
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    color: #7A838B;
+    font-size: 16px;
+  }
+  
+  .featured_candidates_area {
+    background: #F5F7FA;
+    padding-bottom: 100px;
+  }
+
+.single_jobs {
+    padding: 30px;
+    margin-bottom: 12px;
+    border: 1px solid transparent;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  a.heart_mark {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #00D363;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    background: #EFFDF5;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 767px) {
+    .job_listing_area .job_lists .single_jobs {
+      display: block !important;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .job_listing_area .job_lists .single_jobs .jobs_left {
+      display: block !important;
+      overflow: hidden;
+    }
+  }
+  
+  .job_listing_area .job_lists .single_jobs .jobs_left .thumb {
+    float: left;
+    width: 82px;
+    height: 82px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 15px;
+    background: #F5F7FA;
+    margin-right: 25px;
+    border: 1px solid #F0F0F0;
+  }
+  
+  .job_listing_area .job_lists .single_jobs .jobs_left .jobs_conetent {
+    float: left;
+  }
+  
+  .job_listing_area .job_lists .single_jobs .jobs_left .jobs_conetent h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 767px) {
+    .job_listing_area .job_lists .single_jobs .jobs_left .jobs_conetent h4 {
+      margin-top: 15px;
+    }
+  }
+  
+  .job_listing_area .job_lists .single_jobs .jobs_left .jobs_conetent h4:hover {
+    color: #00D363;
+  }
+  
+  @media (max-width: 767px) {
+    .job_listing_area .job_lists .single_jobs .jobs_left .jobs_conetent .links_locat {
+      display: block !important;
+    }
+  }
+  
+  .job_listing_area .job_lists .single_jobs .jobs_left .jobs_conetent .links_locat .location {
+    margin-right: 50px;
+  }
+  
+  @media (max-width: 767px) {
+    .job_listing_area .job_lists .single_jobs .jobs_left .jobs_conetent .links_locat .location {
+      margin-right: 10px;
+    }
+  }
+  
+  .job_listing_area .job_lists .single_jobs .jobs_left .jobs_conetent .links_locat .location p {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #AAB1B7;
+  }
+  
+  .job_listing_area .job_lists .single_jobs .jobs_left .jobs_conetent .links_locat .location p i {
+    margin-right: 7px;
+  }
+  
+  @media (max-width: 767px) {
+    .job_listing_area .job_lists .single_jobs .jobs_right .apply_now {
+      margin: 10px 0;
+    }
+  }
+  
+  .job_listing_area .job_lists .single_jobs .jobs_right .apply_now a.heart_mark {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #00D363;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    background: #EFFDF5;
+    margin-right: 15px;
+  }
+  
+  .job_listing_area .job_lists .single_jobs .jobs_right .apply_now a.heart_mark:hover {
+    background: #00D363;
+    color: #fff;
+  }
+  
+  .job_listing_area .job_lists .single_jobs .jobs_right .apply_now a.boxed-btn3 {
+    padding: 9px 27px 9px 27px;
+    font-size: 14px;
+  }
+  
+  .job_listing_area .job_lists .single_jobs .jobs_right .date {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 767px) {
+    .job_listing_area .job_lists .single_jobs .jobs_right .date {
+      text-align: left;
+    }
+  }
+  
+  .job_listing_area .job_lists .single_jobs .jobs_right .date p {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-style: italic;
+    color: #7A838B;
+  }
+  
+  .job_listing_area .job_lists .single_jobs:hover {
+    border-color: #B2F2D0;
+  }
+  
+  .job_listing_area .job_filter {
+    padding: 25px;
+    display: block;
+  }
+  
+  .job_listing_area .job_filter h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #001D38;
+    font-weight: 400;
+  }
+  
+  .job_listing_area .job_filter .form_inner .single_field input {
+    height: 60px;
+    border: 1px solid #E8E8E8;
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .job_listing_area .job_filter .form_inner .single_field input::placeholder {
+    color: #7A838B;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .job_listing_area .job_filter .form_inner .single_field input:focus {
+    outline: none;
+  }
+  
+  .job_listing_area .job_filter .form_inner .single_field .nice-select {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #7A838B;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 767px) {
+    .job_listing_area .job_filter .form_inner .single_field .nice-select {
+      margin-bottom: 20px;
+    }
+  }
+  
+  .job_listing_area .job_filter .form_inner .single_field .nice-select:focus {
+    outline: none;
+  }
+  
+  .job_listing_area .job_filter .form_inner .nice-select {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #7A838B;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 767px) {
+    .job_listing_area .job_filter .form_inner .nice-select {
+      margin-bottom: 20px;
+    }
+  }
+  
+  .job_listing_area .job_filter .form_inner .nice-select:focus {
+    outline: none;
+  }
+  
+  .recent_joblist {
+    padding: 15px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .recent_joblist {
+      margin-top: 40px;
+    }
+  }
+  
+  .recent_joblist h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    color: #001D38;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .recent_joblist h4 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .recent_joblist .serch_cat {
+      display: block !important;
+    }
+  }
+  
+  .recent_joblist .nice-select {
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    color: #7A838B;
+    font-size: 16px;
+  }
+  
+  .featured_candidates_area {
+    background: #F5F7FA;
+    padding-bottom: 100px;
+  }
+  
+  .featured_candidates_area.candidate_page_padding {
+    padding-top: 100px;
+  }
+  
+  .featured_candidates_area.candidate_page_padding .single_candidates {
+    margin-bottom: 30px;
+  }
+  
+  .featured_candidates_area .single_candidates {
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 35px 45px;
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .featured_candidates_area .single_candidates {
+      padding: 25px 30px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .featured_candidates_area .single_candidates {
+      padding: 25px 20px;
+    }
+  }
+  
+  .featured_candidates_area .single_candidates .thumb {
+    width: 110px;
+    height: 110px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin: auto;
+  }
+  
+  .featured_candidates_area .single_candidates .thumb img {
+    width: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+  
+  .featured_candidates_area .single_candidates h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #001D38;
+    margin-top: 24px;
+    margin-bottom: 6px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .featured_candidates_area .single_candidates p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #AAB1B7;
+    margin-bottom: 0;
+  }
+  
+  .featured_candidates_area .single_candidates:hover h4 {
+    color: #00D363;
+  }
+  
+  .featured_candidates_area .owl-carousel .owl-nav div {
+    background: rgba(10, 140, 255, 0.1);
+    height: 38px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 38px;
+    color: #0A8CFF;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    left: 50px;
+    font-size: 15px;
+    line-height: 38px;
+    border: none;
+    left: -19px;
+  }
+  
+  .featured_candidates_area .owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: -19px;
+  }
+  
+  .featured_candidates_area .owl-carousel .owl-nav div:hover {
+    background: rgba(10, 140, 255, 0.5);
+    color: #fff;
+    border: none;
+  }
+  
+  .pagination_wrap {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .pagination_wrap ul li {
+    display: inline-block;
+  }
+  
+  .pagination_wrap ul li a {
+    width: 38px;
+    height: 38px;
+    border: 1px solid #EAEAEA;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 38px;
+    display: inline-block;
+    color: #AAB1B7;
+    font-size: 14px;
+    margin: 0 4px;
+  }
+  
+  .pagination_wrap ul li a i {
+    line-height: 38px;
+  }
+  
+  .pagination_wrap ul li a span {
+    line-height: 38px;
+  }
+  
+  .pagination_wrap ul li a:hover {
+    border-color: #00D363;
+    color: #00D363;
+  }
+  
+  .top_companies_area {
+    background: #F5F7FA;
+    padding-bottom: 70px;
+  }
+  
+  @media (max-width: 767px) {
+    .top_companies_area {
+      margin-bottom: 40px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .top_companies_area .brouse_job {
+      text-align: left !important;
+      margin-top: 15px;
+    }
+  }
