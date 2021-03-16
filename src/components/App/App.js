@@ -6,6 +6,7 @@ import Header from '../Header'
 import Apropos from '../Apropos'
 import OffreStage from '../OffreStage'
 import Stages from '../Stages'
+import Candidats from '../Stages'
 import Footer from '../Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useLocation, Route, Switch } from "react-router-dom";
@@ -19,16 +20,13 @@ function App() {
    <>
     <Header/>
     <Switch>
-      
           <Route path="/" exact component={Accueil} /> 
           <Route path="/Accueil" component={Accueil} /> 
           <Route path="/Apropos" component={Apropos} /> 
           <Route path="/Offre" component={OffreStage} /> 
           <Route path="/Stages" component={Stages} /> 
+          <Route path="/Candidats" component={Candidats} /> 
            {/*  <Route path="/Footer" component={Footer} />  */}
-         
-        
-        
     </Switch>
     <Footer/>
     </>

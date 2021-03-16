@@ -49,10 +49,10 @@ export default function Header() {
                                         <li><a href="elements.html">Trouves une stage</a></li>
                                         </Link>
                                         <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="candidate.html">Stagiaires </a></li>
-                                                <li><a href="job_details.html">Stages</a></li>
-                                                <li><a href="job_details.html">Tous les Offres</a></li>
+                                            <ul class="submenu">   
+                                             <li><Link to={"/Candidats"}><a href="candidate.html">Stagiaires</a></Link></li>
+                                                <li> <Link to={"/Stages"}><a href="job_details.html">Stages</a></Link></li>
+                                                 <li><Link to={'/Offre'}><a href="job_details.html">Tous les Offres</a> </Link></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">blog <i class="ti-angle-down"></i></a>
