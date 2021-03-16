@@ -142,8 +142,8 @@ constructor(props) {
                                           <img src={myimage} alt="ava" />
                                         </div>
                                         <div class="info">
-                                            <p >"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering through animal welfare when people might depend on livestock as their only source of income or food.</p>
-                                            <span>- Micky Mouse</span>
+                                            <p >"L'avis positif est le résultat d'un travail bien fait. Sa quête est vaine si l'artisan n'a pu réaliser une prestation qualitative en amont. La base est donc avant tout de s'assurer tout au long de la prestation, le bon déroulement des travaux et d'offrir un service client de qualité."</p>
+                                            <span>- Mademoiselle Mademoiselle</span>
                                         </div>
                                     </div>
                                 </div>
