@@ -1,18 +1,45 @@
-{
-    "Jobs": [
-           {
-          "JobsList": [
-            {
-              "Job": "Front End Developpeur"
-            },
-            {
-              "Job": "Conductor"
-            },
-            {
-              "Job": "3D Animateur"
-            }
-          ]
-        }
-    ]
+[
+ {"companyname":"Sonica",
+ "jobtitle":"Front-End Developpeur",
+ "time":"Temps plein",
+ "city":"Quebec",
+ "date":"16 Mars 2021",
+  "img":"https://thenetmencorp.com/wp-content/uploads/2017/08/LO_2016-03-450x450.jpg"
+ },
+ {"companyname":"QC AYANS",
+"jobtitle":"Opérateur Presse Plieuse IAQ H/F",
+"time":"Temps partiel",
+"city":"Montreal",
+"date":"1 avril 2021",
+"img":"https://thenetmencorp.com/wp-content/uploads/2020/01/LO_2018-01_SERVICES_INTERNET_IT_RETAIL_INITIAL-450x449.jpg"
+ },
+{"companyname":"HATTON",
+    "jobtitle":"Architecte intégrateur",
+    "time":"Temps plein",
+    "city":"Quebec",
+    "date":"7 Mars 2021",
+    "img":"https://thenetmencorp.com/wp-content/uploads/2017/08/x12.jpg"
+   },
+   {"companyname":"3D LABS",
+   "jobtitle":"Animateur 3D",
+   "time":"Permanent",
+   "city":"Montreal",
+   "date":"2 avril 2021",
+   "img":"https://thenetmencorp.com/wp-content/uploads/2020/01/LO_2018-04_PHOTOGRAPHYDESIGN_IT_ARCHITECTURE_ABSTRACTGRAPHIC-450x449.jpg"
+   },
+   {"companyname":"iConnect",
+    "jobtitle":"Journalier/Manoeuvre",
+    "time":"Temps partiel",
+    "city":"Quebec",
+    "date":"11 Mars 2021",
+    "img":"https://thenetmencorp.com/wp-content/uploads/2017/08/LOGO_2015-48-1.jpg"
+   },
+   {"companyname":"KUAKI MEDIA",
+   "jobtitle":"Développeur(se) Back-End Magento",
+   "time":"Temps plein",
+   "city":"Sherbrooke",
+   "date":"3 avril 2021",
+   "img":"https://thenetmencorp.com/wp-content/uploads/2017/08/y05-1.jpg"
+   }
 
-}
+]

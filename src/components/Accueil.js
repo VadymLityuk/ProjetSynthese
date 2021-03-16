@@ -109,7 +109,9 @@ constructor(props) {
                     <div class="searching_text">
                         <h3>À la recherche d'un stage?</h3>
                         <p>L'unique répertoire de stages et de stagiaires au Québec </p>
+                        <Link to={"/Stages"}>
                         <Button style={{backgroundColor: '#00D363',color: 'white' }} variant="contained" href="#" >Trouve un stage</Button>
+                        </Link>
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-1 col-md-6">
@@ -122,8 +124,6 @@ constructor(props) {
             </div>
         </div>
     </div>
-
-    
     <div class="testimonial_area  ">
         <div class="container">
             <div class="row">
