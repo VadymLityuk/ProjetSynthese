@@ -28,6 +28,7 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import MenuItem from '@material-ui/core/MenuItem';
 import MYDATA from '../liststage.json'
+import CANDIDAT from '../candidats.json'
 import ShareIcon from '@material-ui/icons/Share';
 import './style/offre.scss'
 import {useState} from 'react'
@@ -76,6 +77,7 @@ const useStyles = makeStyles((theme) => ({
     const classes = useStyles();
 
     const [searchTerm,setSearchTerm] = useState('');
+    const [searchCandidat,setSearchCandidat] = useState('');
     
     return (
     <>
@@ -113,7 +115,7 @@ const useStyles = makeStyles((theme) => ({
                                         <div class="single_field">
                           <input style={{boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px' }} type="text" placeholder="Recherche par profession..."
                            onChange={event =>{
-                               setSearchTerm(event.target.value);
+                            setSearchTerm(event.target.value);
                                }}/> 
                         </div>
                            </div>   
@@ -130,13 +132,13 @@ const useStyles = makeStyles((theme) => ({
         </Grid>
         {MYDATA.filter((val)=>{
             if(searchTerm == ""){
-                return val
-            } else if (val.jobtitle.toLowerCase().includes(searchTerm.toLowerCase())){
+                return val 
+            } else if (val.jobtitle.toLowerCase().includes(searchTerm.toLowerCase())){ 
             return val 
             }
         }).map((val,key)=>{
         return ( 
-           <>
+           <> 
         <Grid item lg={4} xs={12}>
         <div class="col-lg-12 col-md-12">
                                 <div class="single_jobs white-bg d-flex justify-content-between" style={{backgroundColor: 'white',boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}}>
@@ -191,7 +193,7 @@ const useStyles = makeStyles((theme) => ({
                                         <div class="single_field">
                           <input style={{boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px' }} type="text" placeholder="Recherche par profession..."
                            onChange={event =>{
-                               setSearchTerm(event.target.value);
+                            setSearchCandidat(event.target.value);
                                }}/> 
                         </div>
                            </div>   
@@ -207,24 +209,34 @@ const useStyles = makeStyles((theme) => ({
                     </div>
         </div>
         </Grid>
+        {CANDIDAT.filter((val)=>{
+            if(searchCandidat == ""){
+                return val  //searchCandidat,setSearchCandidat
+            } else if (val.jobtitle.toLowerCase().includes(searchCandidat.toLowerCase())){
+            return val 
+            }
+        }).map((val,key)=>{
+        return ( 
+           <>
         <Grid item lg={4} xs={12}>
         <div class="col-lg-12 col-md-12">
                                 <div class="single_jobs white-bg d-flex justify-content-between" style={{backgroundColor: 'white',boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}}>
                                     <div class="jobs_left d-flex align-items-center">
                                         <div class="thumb">
-                                            <img src={stager} alt=""/> 
+                                            <img style={{maxWidth: '100px',maxHeight: '80px'}}src={val.img} alt=""/> 
                                         </div>
                                         <div class="jobs_conetent">
-                                            <a ><h5>Front End Développeur</h5></a>
+                                            <a ><h5 style={{paddingLeft:'5px'}}>{val.name}</h5></a>
+                                            <a ><h8 style={{paddingLeft:'8px',color:'#00D363'}}>{val.jobtitle}</h8></a>
                                             <div class="links_locat d-flex align-items-center">
                                                 <div class="location">
-                                                    <p style={{color: 'gray',padding:'2px'}}>
+                                                    <p style={{color: 'gray'}}>
                                                     <LocationOnIcon  style={{color: 'lightgray',padding:'2px'}}/>
-                                                     Québec</p>
+                                                    {val.city}</p>
                                                 </div>
-                                                <div class="location" style={{color: 'gray',padding:'2px'}}>
+                                                <div class="location" style={{color: 'gray'}}>
                                                     <p><AccessTimeIcon style={{color: 'lightgray',padding:'2px'}}/> 
-                                                    Temps partiel</p>
+                                                    {val.time}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -235,87 +247,22 @@ const useStyles = makeStyles((theme) => ({
                                             <Button  class="boxed-btn3" variant="contained">Apply Now</Button>
                                         </div>
                                         <div class="date">
-                                            <p>31 Mars 2021</p>
+                                            <p>{val.date}</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
         </Grid>
-        <Grid item lg={4} xs={12}>
-        <div class="col-lg-12 col-md-12">
-                                <div class="single_jobs white-bg d-flex justify-content-between" style={{backgroundColor: 'white',boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}}>
-                                    <div class="jobs_left d-flex align-items-center">
-                                        <div class="thumb" >
-                                            <img src={stager} alt=""/> 
-                                        </div>
-                                        <div class="jobs_conetent">
-                                            <a ><h5>Front End Développeur</h5></a>
-                                            <div class="links_locat d-flex align-items-center">
-                                                <div class="location">
-                                                    <p style={{color: 'gray',padding:'2px'}}>
-                                                    <LocationOnIcon  style={{color: 'lightgray',padding:'2px'}}/>
-                                                     Québec</p>
-                                                </div>
-                                                <div class="location" style={{color: 'gray',padding:'2px'}}>
-                                                    <p><AccessTimeIcon style={{color: 'lightgray',padding:'2px'}}/> 
-                                                    Temps partiel</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="jobs_right">
-                                        <div class="apply_now">
-                                            <a class="heart_mark" ><FavoriteIcon /></a>
-                                            <Button  class="boxed-btn3" variant="contained">Apply Now</Button>
-                                        </div>
-                                        <div class="date">
-                                            <p>31 Mars 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-        </Grid>
-        <Grid item lg={4} xs={12}>
-        <div class="col-lg-12 col-md-12">
-                                <div class="single_jobs white-bg d-flex justify-content-between" style={{backgroundColor: 'white',boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}}>
-                                    <div class="jobs_left d-flex align-items-center">
-                                        <div >
-                                            <img src={stager} alt=""/> 
-                                        </div>
-                                        <div class="jobs_conetent">
-                                            <a ><h5>Front End Développeur</h5></a>
-                                            <div class="links_locat d-flex align-items-center">
-                                                <div class="location">
-                                                    <p style={{color: 'gray',padding:'2px'}}>
-                                                    <LocationOnIcon  style={{color: 'lightgray',padding:'2px'}}/>
-                                                     Québec</p>
-                                                </div>
-                                                <div class="location" style={{color: 'gray',padding:'2px'}}>
-                                                    <p><AccessTimeIcon style={{color: 'lightgray',padding:'2px'}}/> 
-                                                    Temps partiel</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="jobs_right">
-                                        <div class="apply_now">
-                                            <a class="heart_mark" ><FavoriteIcon /></a>
-                                            <Button  class="boxed-btn3" variant="contained">Apply Now</Button>
-                                        </div>
-                                        <div class="date">
-                                            <p>31 Mars 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-        </Grid>
-        <Link  to={"/Stages"}>
+        </>
+           )})}
+        <hr/>
+    <div class="section-top-border">
+        
+    <Link  to={"/Stages"}>
                 <div style={{padding: '29px'}}>
         <Button style={{boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }} class="boxed-btn3" variant="contained">voir tous les stagiaires</Button>
         </div>
         </Link>
-        <hr/>
-    <div class="section-top-border">
 				<div class="row">
 					<div class="col-md-3">
 						<img   src={office} alt="" class="img-fluid"/>
