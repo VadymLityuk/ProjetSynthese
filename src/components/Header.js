@@ -44,15 +44,15 @@ export default function Header() {
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="index.html">Accueil</a></li>
+                                    <Link to={"/"}><li><a>Accueil</a></li></Link>
                                         <Link to={'/Offre'}>
-                                        <li><a href="elements.html">Trouves une stage</a></li>
+                                        <li><a>Trouves une stage</a></li>
                                         </Link>
-                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                        <li><a>pages <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">   
-                                             <li><Link to={"/Candidats"}><a href="candidate.html">Stagiaires</a></Link></li>
-                                                <li> <Link to={"/Stages"}><a href="job_details.html">Stages</a></Link></li>
-                                                 <li><Link to={'/Offre'}><a href="job_details.html">Tous les Offres</a> </Link></li>
+                                             <li><Link to={"/Stagier"}><a>Stagiaires</a></Link></li>
+                                                <li> <Link to={"/Stages"}><a>Stages</a></Link></li>
+                                                 <li><Link to={'/Offre'}><a>Tous les Offres</a> </Link></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">blog <i class="ti-angle-down"></i></a>
@@ -61,7 +61,7 @@ export default function Header() {
                                                 <li><a href="single-blog.html">single-blog</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <Link to={"/Contact"}> <li><a >Contact</a></li></Link>
                                     </ul>
                                 </nav>
                             </div>
@@ -70,7 +70,7 @@ export default function Header() {
                             <div class="Appointment">
                                 <div class="d-none d-lg-block">
                                     <Link to={'/Apropos'}>
-                        <Button style={{backgroundColor: '#00D363',color: 'white' }} variant="contained" href="#" >Connexion</Button>
+                        <Button style={{backgroundColor: '#00D363',color: 'white' }} variant="contained" >Connexion</Button>
                         </Link>
                                 </div>
                             </div>

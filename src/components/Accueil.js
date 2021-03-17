@@ -119,7 +119,9 @@ constructor(props) {
                     <div class="searching_text">
                         <h3>Recherche d'un candidat?</h3>
                         <p>L'unique répertoire de stages et de stagiaires au Québec </p>
-                        <Button style={{color: 'white'}} href="#" >Trouve un candidat</Button>
+                       <Link to={"/Stagier"}>
+                        <Button style={{color: 'white'}} href="#" >Trouve un stagiaires </Button>
+                    </Link>
                     </div>
                 </div>
             </div>

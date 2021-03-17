@@ -94,7 +94,7 @@ const useStyles = makeStyles((theme) => ({
                     <div class="col-lg-7 col-md-6">
                         <div class="slider_text" >
                             <h4 style={{color:'white',fontSize: '44px'}}>
-                            Trouvez votre stage aujourd'hui!  
+                            Trouvez votre stagiares aujourd'hui!  
                             </h4>
                             <div class="col-lg-12">
                                         <div class="single_field">
@@ -114,54 +114,10 @@ const useStyles = makeStyles((theme) => ({
         </div>
     </div>
         </Grid>
-        <Grid item lg={3} xs={12}>
-                    <div class="job_filter">
-                        <Link to={"/Offre"}>
+        <Link to={"/Offre"}>
                     <p style={{fontWeight:'500', color: 'rgb(168, 168, 177)'}}>  <ArrowLeftIcon/> Retourner à la page précédente</p>
-                    </Link>
-                        <div className="job_filter form_inner white-bg">   
-                            <form  style={{boxShadow: 'rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px',borderRadius: '9px'}}>
-                             
-                                <div class=" job_filter row">
-                                    <div class="job_filter col-lg-12">
-                        <h3 style={{textAlign: 'center',color: 'gray'}}>Filtre de Recherche</h3>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div className="single_field">
-                                            <select style={{color: 'gray'}} class="job_filter wide">
-                                                <option data-display=" job_filter Location">Location</option>
-                                                <option value="1">Quebec</option>
-                                                <option value="2">Montreal </option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div className="single_field">
-                                            <select  style={{color: 'gray'}} className="job_filter wide">
-                                                <option data-display="Job type">Permanant</option>
-                                                <option value="1">Temps Plein</option>
-                                                <option value="2">Temps partiel</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div className="single_field">
-                                            <select style={{color: 'gray'}} className="job_filter wide">
-                                                <option data-display="Job type">Job type</option>
-                                                <option value="1">full time 1</option>
-                                                <option value="2">part time 2 </option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="reset_btn" style={{textAlign: 'center'}}>
-                            <Button variant="contained" style={{backgroundColor:'#00D363',color:'white'}}>Recherche</Button>
-                        </div>
-                    </div>
-                </Grid>
-        <Grid item lg={9} xs={12}>
+        </Link>
+        <Grid item lg={3} xs={6}>
         {DATA.filter((val)=>{
             if(searchTerm == ""){
                 return val

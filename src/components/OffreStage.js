@@ -238,7 +238,7 @@ const useStyles = makeStyles((theme) => ({
                                     <div class="jobs_right">
                                         <div class="apply_now">
                                             <a class="heart_mark" ><FavoriteIcon /></a>
-                                            <Button  class="boxed-btn3" variant="contained">Apply Now</Button>
+                                            <a class="heart_mark" ><ShareIcon /></a>
                                         </div>
                                         <div class="date">
                                             <p>{val.date}</p>
@@ -252,7 +252,7 @@ const useStyles = makeStyles((theme) => ({
         <hr/>
     <div class="section-top-border">
         
-    <Link  to={"/Stages"}>
+    <Link  to={"/Stagier"}>
                 <div style={{padding: '29px'}}>
         <Button style={{boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }} class="boxed-btn3" variant="contained">voir tous les stagiaires</Button>
         </div>
