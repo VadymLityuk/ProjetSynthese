@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import Container from "react-bootstrap/Container"; 
 import Row from "react-bootstrap/Row"; 
 import Col from "react-bootstrap/Col"; 
@@ -24,7 +24,7 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 import './style/slider.scss'
-
+import fire from '../fire'
 
 //import '../MainPage/page.css'
 
@@ -66,7 +66,30 @@ const useStyles = makeStyles((theme) => ({
 
   export default function Apropos() {
     const classes = useStyles();
+    const [user,setUser] = useState('');
+    const [email,setEmail] = useState('');
+    const [password,setPassword] = useState('');
+    const [emailerror,seTemailerror] = useState('');
+    const [passworderror,setPassworderror] = useState('');
+    const [hasaccount,setHasaccount] = useState('');
 
+    const handleLogin = () =>{
+  fire
+  .auth()
+  .siginInWithEmailAndPassword(email,password)
+  .cath(err => {
+    switch(err.code){
+      case "auth/invalid/email":
+      case "auth/user-disabled":
+      case "auth/user/not-found":
+        seTemailerror(err.message);
+        break;
+        case "auth/wrong-password":
+          setPassworderror(err.message);
+          break;
+    }
+  })
+}
 
 
     return (
