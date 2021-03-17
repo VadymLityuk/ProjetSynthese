@@ -9,18 +9,22 @@ import Stages from '../Stages'
 import Stagier from '../Stagers'
 import Footer from '../Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useLocation, Route, Switch } from "react-router-dom";
+import { useLocation,withRouter, Route, Switch } from "react-router-dom";
 import DetailsStage from '../DetailsStage'
 import DetailsStagiers from '../DetailsStagiers'
 import Contact from '../Contact'
+import Admin from '../Admin';
 
-
-function App() {
+function App(props) {
   return (
  <>
    <>
-    <Header/>
+   {/*
+      props.location.path!=='/Adimn' ? <Header/>:null
+   */}
+   <Header/>
     <Switch>
+      
           <Route path="/" exact component={Accueil} /> 
           <Route path="/Accueil" component={Accueil} /> 
           <Route path="/Apropos" component={Apropos} /> 
@@ -30,6 +34,7 @@ function App() {
           <Route path="/DetailsStage" component={DetailsStage} /> 
           <Route path="/DetailsStagiers" component={DetailsStagiers} /> 
           <Route path="/Contact" component={Contact} /> 
+          <Route path="/Adimn" component={Admin} /> 
            {/*  <Route path="/Footer" component={Footer} />  */}
     </Switch>
     <Footer/>
