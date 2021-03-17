@@ -24,8 +24,6 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 import './style/slider.scss'
-import fire from '../fire'
-import Admin from './Admin';
 //import '../MainPage/page.css'
 
 
@@ -77,7 +75,7 @@ const Connexion = (props)=> {
                   <LockOutlinedIcon />
                 </Avatar>
                 <Typography component="h1" variant="h5">
-                  Identification
+                Autorisation
                 </Typography>
            
                 <form >
@@ -109,10 +107,6 @@ const Connexion = (props)=> {
                     autoComplete="current-password"
                   />
                   <p className="errorMessage">{passworderror}</p>
-                  <FormControlLabel
-                    control={<Checkbox value="remember" color="primary" />}
-                    label="Se souvenir de moi"
-                  />
                   {hasaccount ? (
                    <>
                    <Button
@@ -126,7 +120,7 @@ const Connexion = (props)=> {
                   >
                  S'identifier
                   </Button>
-                  <p>Pas d'account? <Link  style={{fontWeight: 'bold',color: '#1E90FF'}} onClick={() => setHasaccount(!hasaccount)}>S'inscrire</Link></p>
+                  <p style={{paddingTop:'22px',fontSize: '19px'}}>Pas d'account? <Link  style={{fontWeight: 'bold',color: '#1E90FF'}} onClick={() => setHasaccount(!hasaccount)}>S'inscrire</Link></p>
                    </>
                   ) : (
                     <>
@@ -141,7 +135,7 @@ const Connexion = (props)=> {
                    >
                      S'inscrire
                    </Button>
-                   <p>Vous avez une account? <Link style={{fontWeight: 'bold',color: '#1E90FF'}} onClick={() => setHasaccount(!hasaccount)}>S'identifier</Link></p>
+                   <p style={{paddingTop:'22px',fontSize: '19px'}} >Vous avez une account? <Link style={{fontWeight: 'bold',color: '#1E90FF'}} onClick={() => setHasaccount(!hasaccount)}>S'identifier</Link></p>
                     </>
                   )}
                 </form>

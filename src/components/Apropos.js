@@ -15,14 +15,6 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import myimage from '../images/office.jpg'
 import sign from '../images/sign.png'
 import './style/main.css'
-import './style/quotes.css'
-import CssBaseline from '@material-ui/core/CssBaseline';
-import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
-import Typography from '@material-ui/core/Typography';
-import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 import './style/slider.scss'
 import fire from '../fire'
 import Admin from './Admin';
@@ -50,11 +42,11 @@ import Connexion from './Connexion';
     }
 
     const handleLogin = () =>{
-      clearErrors();
+    clearErrors();
   fire
   .auth()
   .signInWithEmailAndPassword(email,password)
-  .cath(err => {
+  .catch(err => {
     switch(err.code){
       case "auth/invalid-email":
       case "auth/user-disabled":
@@ -73,7 +65,7 @@ const handleSignup = () =>{
   fire
   .auth()
   .createUserWithEmailAndPassword(email,password)
-  .cath(err => {
+  .catch(err => {
     switch(err.code){
       case "auth/email-already-used":
       case "auth/invalid-email":
