@@ -28,6 +28,8 @@ import './style/offre.scss'
 import './style/slider.scss'
 import './style/jobdetails.scss'
 
+import Header from './Header'
+import Footer from './Footer'
 const avatar= {
   avatar: require("../images/ava2.JPG"),
 };
@@ -76,6 +78,7 @@ const useStyles = makeStyles((theme) => ({
 
     return (
     <>
+    <Header/>
          <div className={classes.root} >
       <Grid container spacing={3} style={{backgroundColor: '#F5F7FA'}}>
         <Grid item xs={12}>
@@ -230,6 +233,7 @@ const useStyles = makeStyles((theme) => ({
         
       </Grid>
     </div>
+    <Footer/>
     </>
     );
   }

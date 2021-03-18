@@ -20,6 +20,7 @@ import fire from '../fire'
 import Admin from './Admin';
 import Connexion from './Connexion';
 
+import Footer from './Footer'
 import Header from './Header'
 //import '../MainPage/page.css'
 
@@ -123,7 +124,6 @@ useEffect(() => {
      />
      </>
    )}
-        
     </>
     );
   }

@@ -24,8 +24,6 @@ function App() {
    {/*
       props.location.path!=='/Apropos'  ?  <Header/>:null
    */}
-    <Header 
-    />
     <Switch>
           <Route path="/" exact component={Accueil} /> 
           <Route path="/Accueil" component={Accueil} /> 
@@ -39,7 +37,6 @@ function App() {
           <Route path="/Admin"  component={Admin} /> 
            {/*  <Route path="/Footer" component={Footer} />  */}
     </Switch>
-    <Footer/>
     </>
   );
 }

@@ -29,6 +29,8 @@ import {useState} from 'react'
 import './style/slider.scss'
 //import '../MainPage/page.css'
 
+import Header from './Header'
+import Footer from './Footer'
 
 const avatar= {
   avatar: require("../images/ava2.JPG"),
@@ -75,6 +77,7 @@ const useStyles = makeStyles((theme) => ({
     
     return (
     <>
+    <Header/>
          <div className={classes.root}>
       <Grid container spacing={3}>
         <Grid item xs={12}>
@@ -293,7 +296,7 @@ const useStyles = makeStyles((theme) => ({
       
     </div>
     
-    
+    <Footer/>
     </>
     );
   }

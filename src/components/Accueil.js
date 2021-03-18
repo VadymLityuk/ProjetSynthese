@@ -17,6 +17,8 @@ import './style/quotes.css'
 
 import './style/slider.scss'
 
+import Header from './Header'
+import Footer from './Footer'
 
 //import '../MainPage/page.css'
 
@@ -47,7 +49,7 @@ constructor(props) {
   render() {
     return (
     <>
-    
+    <Header/>
     <div class="slider_area">
         <div class="single_slider  d-flex align-items-center slider_bg_1">
             <div class="container">
@@ -159,7 +161,7 @@ constructor(props) {
     </div>
     
 
-
+<Footer/>
     
     </>
     );

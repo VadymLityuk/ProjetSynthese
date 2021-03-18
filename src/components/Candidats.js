@@ -31,6 +31,8 @@ import DATA from '../offredata.json'
 import {useState} from 'react'
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 
+import Header from './Header'
+import Footer from './Footer'
 import './style/offre.scss'
 import './style/slider.scss'
 //import '../MainPage/page.css'
@@ -84,6 +86,7 @@ const useStyles = makeStyles((theme) => ({
 
     return (
     <>
+    <Header/>
          <div className={classes.root} >
       <Grid container spacing={3} >
         <Grid item xs={12}>
@@ -202,6 +205,8 @@ const useStyles = makeStyles((theme) => ({
         */} 
       </Grid>
     </div>
+    
+    <Footer/>
     </>
     );
   }

@@ -11,6 +11,8 @@ import myimage from '../images/sign.png'
 
 import Button from '@material-ui/core/Button';
 
+import Header from './Header'
+import Footer from './Footer'
 export default class Contact extends Component {
   state = {
     name: "",
@@ -76,6 +78,8 @@ export default class Contact extends Component {
   };
   render() {
     return (
+      <>
+      <Header/>
         <div>
         <Grid item xs={12}>
         <div class="slider_secondary">
@@ -165,6 +169,8 @@ export default class Contact extends Component {
         </div>
       </form>
       </div>
+      <Footer/>
+      </>
     );
   }
 }

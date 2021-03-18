@@ -26,6 +26,8 @@ import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 import './style/slider.scss'
 //import '../MainPage/page.css'
 
+import Header from './Header'
+import Footer from './Footer'
 
 const Connexion = (props)=> {
 
@@ -44,6 +46,7 @@ const Connexion = (props)=> {
     
     return(
         <>
+        <Header/>
         <div class="slider_secondary">
                 <div class="single_slider  d-flex align-items-center slider_bg_1">
                     <div class="container">
@@ -62,7 +65,7 @@ const Connexion = (props)=> {
                 </div>
                 
                 <Link to={"/Accueil"}>
-                            <p style={{fontWeight:'500', color: 'rgb(168, 168, 177)'}}>  <ArrowLeftIcon/> Retourner à la page d'Accueil</p>
+                            <p style={{fontWeight:'500', color: 'rgb(60, 130, 223)',paddingTop: '12px'}}>  <ArrowLeftIcon/> Retourner à la page d'Accueil</p>
                             </Link>
             </div>
             <div style={{paddingBottom: '40px'}}>
@@ -118,9 +121,9 @@ const Connexion = (props)=> {
                     color="primary"
                     style={{ backgroundColor:'#3c82df',color: 'white'}}
                   >
-                 S'identifier
+                 Connecter
                   </Button>
-                  <p style={{paddingTop:'22px',fontSize: '19px'}}>Pas d'account? <Link  style={{fontWeight: 'bold',color: '#1E90FF'}} onClick={() => setHasaccount(!hasaccount)}>S'inscrire</Link></p>
+                  <p style={{paddingTop:'22px',fontSize: '19px'}}>Pas de profile? <Link  style={{fontWeight: 'bold',color: '#1E90FF'}} onClick={() => setHasaccount(!hasaccount)}>S'inscrire</Link></p>
                    </>
                   ) : (
                     <>
@@ -135,7 +138,7 @@ const Connexion = (props)=> {
                    >
                      S'inscrire
                    </Button>
-                   <p style={{paddingTop:'22px',fontSize: '19px'}} >Vous avez une account? <Link style={{fontWeight: 'bold',color: '#1E90FF'}} onClick={() => setHasaccount(!hasaccount)}>S'identifier</Link></p>
+                   <p style={{paddingTop:'22px',fontSize: '19px'}} >Vous avez le profil? <Link style={{fontWeight: 'bold',color: '#1E90FF'}} onClick={() => setHasaccount(!hasaccount)}>Se Connecter</Link></p>
                     </>
                   )}
                 </form>
@@ -164,6 +167,7 @@ const Connexion = (props)=> {
             </Grid>
               </Grid>
             </div>
+            <Footer/>
           </>
     )
  }

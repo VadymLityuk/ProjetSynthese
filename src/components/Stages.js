@@ -9,32 +9,19 @@ import { Link } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import {NavLink} from 'react-router-dom'
-import Avatar from '@material-ui/core/Avatar';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import myimage from '../images/6.svg'
-import stager from '../images/stager.png'
-import office from '../images/office.jpg'
 import './style/main.css'
 import './style/quotes.css'
-import CssBaseline from '@material-ui/core/CssBaseline';
-import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
-import Typography from '@material-ui/core/Typography';
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import MenuItem from '@material-ui/core/MenuItem';
 import DATA from '../offredata.json'
 import {useState} from 'react'
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 
+import Header from './Header'
+import Footer from './Footer'
 import './style/offre.scss'
 import './style/slider.scss'
-//import '../MainPage/page.css'
-import Divider from '@material-ui/core/Divider';
 
 const avatar= {
   avatar: require("../images/ava2.JPG"),
@@ -84,6 +71,7 @@ const useStyles = makeStyles((theme) => ({
 
     return (
     <>
+    <Header/>
          <div className={classes.root} >
       <Grid container spacing={3} >
         <Grid item xs={12}>
@@ -248,6 +236,7 @@ const useStyles = makeStyles((theme) => ({
         */} 
       </Grid>
     </div>
+    <Footer/>
     </>
     );
   }
