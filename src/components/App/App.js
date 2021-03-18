@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../App/App.scss';
 import {Accueil} from '../Accueil'
 import  {Container} from 'react-bootstrap';
@@ -15,31 +15,32 @@ import DetailsStagiers from '../DetailsStagiers'
 import Contact from '../Contact'
 import Admin from '../Admin';
 
-function App(props) {
+
+function App() {
+
+  
   return (
- <>
    <>
    {/*
-      props.location.path!=='/Adimn' ? <Header/>:null
+      props.location.path!=='/Apropos'  ?  <Header/>:null
    */}
-   <Header/>
+    <Header 
+    />
     <Switch>
-      
           <Route path="/" exact component={Accueil} /> 
           <Route path="/Accueil" component={Accueil} /> 
-          <Route path="/Apropos" component={Apropos} /> 
+          <Route path="/Apropos" exact component={Apropos} /> 
           <Route path="/Offre" component={OffreStage} /> 
           <Route path="/Stages" component={Stages} /> 
           <Route path="/Stagier" component={Stagier} /> 
           <Route path="/DetailsStage" component={DetailsStage} /> 
           <Route path="/DetailsStagiers" component={DetailsStagiers} /> 
           <Route path="/Contact" component={Contact} /> 
-          <Route path="/Adimn" component={Admin} /> 
+          <Route path="/Admin"  component={Admin} /> 
            {/*  <Route path="/Footer" component={Footer} />  */}
     </Switch>
     <Footer/>
     </>
-   </> 
   );
 }
 

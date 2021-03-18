@@ -19,6 +19,8 @@ import './style/slider.scss'
 import fire from '../fire'
 import Admin from './Admin';
 import Connexion from './Connexion';
+
+import Header from './Header'
 //import '../MainPage/page.css'
 
 
@@ -102,7 +104,9 @@ useEffect(() => {
     return (
     <>
      {user ? (
+       <>
 <Admin handleLogOut={handleLogOut} />
+</>
    ) : (
      <>
      <Connexion 

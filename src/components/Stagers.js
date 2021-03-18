@@ -126,7 +126,7 @@ const useStyles = makeStyles((theme) => ({
             }
         }).map((val,key)=>{
         return ( 
-            <Grid item xl={4} lg={4} xs={6} style={{paddingBottom: '3rem'}}>
+            <Grid item xl={4} lg={4} xs={12} style={{paddingBottom: '3rem'}}>
         <div class="col-lg-12 col-md-12">
         <div class="single_jobs white-bg d-flex justify-content-between" style={{backgroundColor: 'white',boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}}>
             <div class="jobs_left d-flex align-items-center">
