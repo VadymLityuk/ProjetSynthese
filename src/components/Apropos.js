@@ -1,27 +1,11 @@
 import React,{useState,useEffect} from "react";
-import Container from "react-bootstrap/Container"; 
-import Row from "react-bootstrap/Row"; 
-import Col from "react-bootstrap/Col"; 
-import Button from '@material-ui/core/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Image from 'react-bootstrap/Image'
-import { Link } from "react-router-dom";
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
-import {NavLink} from 'react-router-dom'
-import Avatar from '@material-ui/core/Avatar';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import myimage from '../images/office.jpg'
 import sign from '../images/sign.png'
 import './style/main.css'
 import './style/slider.scss'
 import fire from '../fire'
 import Admin from './Admin';
 import Connexion from './Connexion';
-
-import Footer from './Footer'
-import Header from './Header'
 //import '../MainPage/page.css'
 
 

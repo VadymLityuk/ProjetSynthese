@@ -9,7 +9,7 @@ import Grid from '@material-ui/core/Grid';
 import {NavLink} from 'react-router-dom'
 import myimage from '../images/6.svg'
 import stager from '../images/stager.png'
-import office from '../images/office.jpg'
+import office from '../images/office.png'
 import './style/main.css'
 import './style/quotes.css'
 import CssBaseline from '@material-ui/core/CssBaseline';

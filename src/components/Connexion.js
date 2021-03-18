@@ -12,7 +12,7 @@ import Grid from '@material-ui/core/Grid';
 import {NavLink} from 'react-router-dom'
 import Avatar from '@material-ui/core/Avatar';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import myimage from '../images/office.jpg'
+import myimage from '../images/office.png'
 import sign from '../images/sign.png'
 import './style/main.css'
 import './style/quotes.css'
@@ -64,7 +64,7 @@ const Connexion = (props)=> {
                 <img src={sign} alt="ava" />
                 </div>
                 
-                <Link to={"/Accueil"}>
+                <Link to={"/Accueil"} >
                             <p style={{fontWeight:'500', color: 'rgb(60, 130, 223)',paddingTop: '12px'}}>  <ArrowLeftIcon/> Retourner à la page d'Accueil</p>
                             </Link>
             </div>

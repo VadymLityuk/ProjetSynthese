@@ -10,7 +10,7 @@ import {NavLink} from 'react-router-dom'
 import Avatar from '@material-ui/core/Avatar';
 import myimage from '../images/avatar.jpg'
 import logoban from '../images/logoban.png'
-import office from '../images/office.jpg'
+import office from '../images/office.png'
 import { makeStyles } from '@material-ui/core/styles';
 import './style/main.css'
 import './style/quotes.css'

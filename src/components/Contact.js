@@ -89,7 +89,7 @@ export default class Contact extends Component {
                     <div class="col-lg-7 col-md-6">
                         <div class="slider_text" >
                             <h4 style={{color:'white',fontSize: '44px'}}>
-                            Contactés avec nous
+                            Nous Joindre
                             </h4>
                            </div>
                     </div>

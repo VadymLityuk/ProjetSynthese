@@ -80,12 +80,6 @@ const Header = () => {
                                             <li><Link to={'/Offre'}><a>Tous les Offres</a> </Link></li>
                                        </ul>
                                    </li>
-                                   <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                       <ul class="submenu">
-                                           <li><a href="blog.html">blog</a></li>
-                                           <li><a href="single-blog.html">single-blog</a></li>
-                                       </ul>
-                                   </li>
                                    <Link to={"/Contact"}> <li><a >Contact</a></li></Link>
                                </ul>
                            </nav>

@@ -12,17 +12,17 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import PinterestIcon from '@material-ui/icons/Pinterest';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-
+import logo from '../images/logo.png'
 
 function Copyright() {
     return (
-      <Typography variant="body2" color="textSecondary" align="center">
+      <Typography variant="body2" style={{fontWeight: 'bold'}} color="white" align="center">
         {'Copyright © '}
-        <Link color="inherit" href="https://github.com/VadymLityuk">
-          Vadim Lityuk
-        </Link>{' '}
         {new Date().getFullYear()}
-        {'.'}
+        <Link color="inherit" href="https://github.com/VadymLityuk">
+             <> </>Vadim Lityuk
+        </Link>{' '}
+        {'| All rights Reserved'}
       </Typography>
     );
   }
@@ -39,12 +39,10 @@ export default function Footer() {
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                             <div class="footer_logo">
-                                <a href="#">
-                                    <img src="img/logo.png" alt=""/>
-                                </a>
-                                <Copyright />
+                                <a href="#">  
+                                   <img src={logo} alt=""/>
+                                     </a>
                             </div>
-                            
                             <p> 
                                 vad@support.com <br/>
                                 +1 581 672 6782 <br/>
@@ -78,7 +76,7 @@ export default function Footer() {
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget wow fadeInUp" data-wow-duration="1.1s" data-wow-delay=".4s">
                             <h3 class="footer_title">
-                            Entreprises
+                            E Stages
                             </h3>
                             <ul>
                                 <li><a href="#">À propos de nous</a></li>
@@ -123,6 +121,7 @@ export default function Footer() {
                 <div class="row">
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
+                        <Copyright />
                         </p>
                     </div>
                 </div>
