@@ -24,8 +24,9 @@ import Avatar from '@material-ui/core/Avatar';
 import logo from '../images/logo.png'
 import stager from '../images/avatar.jpg'
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import AdminCandidats from './AdminCandidats'
 
-
+import AdminAccueil from './AdminAccuel'
 
 
 function Copyright() {
@@ -139,9 +140,9 @@ export default function Dashboard({handleLogOut}) {
   };
   const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
 
+ // <CssBaseline />
   return (
-    <div className={classes.root}>
-      <CssBaseline />
+    <>
       <AppBar style={{backgroundColor: 'rgb(11, 96, 207)'}} position="absolute" className={clsx(classes.appBar, open && classes.appBarShift)}>
         <Toolbar className={classes.toolbar}>
           <IconButton
@@ -183,36 +184,13 @@ export default function Dashboard({handleLogOut}) {
             <ChevronLeftIcon />
           </IconButton>
         </div>
+        {/* 
         <Divider />
         <List>{mainListItems}</List>
         <Divider />
         <List>{secondaryListItems}</List>
+        */}
       </Drawer>
-      <main className={classes.content}>
-        <div className={classes.appBarSpacer} />
-        <Container maxWidth="lg" className={classes.container}>
-          <Grid container spacing={3}>
-            {/* Chart */}
-            <Grid item xs={12} md={8} lg={9}>
-              <Paper className={fixedHeightPaper}>
-              </Paper>
-            </Grid>
-            {/* Recent Deposits */}
-            <Grid item xs={12} md={4} lg={3}>
-              <Paper className={fixedHeightPaper}>
-              </Paper>
-            </Grid>
-            {/* Recent Orders */}
-            <Grid item xs={12}>
-              <Paper className={classes.paper}>
-              </Paper>
-            </Grid>
-          </Grid>
-          <Box pt={4}>
-            <Copyright />
-          </Box>
-        </Container>
-      </main>
-    </div>
+    </>
   );
 }

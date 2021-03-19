@@ -22,7 +22,7 @@ import stager from '../images/avatar.jpg'
 
 import './style/admin.css'
 import Dashboard from './Adminpanel'
-
+import AdminAccueil from './AdminAccuel'
 
 
 
@@ -33,7 +33,6 @@ const Admin = ({handleLogOut}) => {
       <Button variant="contained" color="secondary" onClick={handleLogOut}>
               Log Out
      </Button>
-
      </div>
       <Dashboard />
       

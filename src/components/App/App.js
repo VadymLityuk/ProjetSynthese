@@ -14,7 +14,8 @@ import DetailsStage from '../DetailsStage'
 import DetailsStagiers from '../DetailsStagiers'
 import Contact from '../Contact'
 import Admin from '../Admin';
-
+import AdminCandidats from '../AdminCandidats'
+import AdminAccueil from '../AdminAccuel'
 
 function App() {
 
@@ -35,6 +36,8 @@ function App() {
           <Route path="/DetailsStagiers" component={DetailsStagiers} /> 
           <Route path="/Contact" component={Contact} /> 
           <Route path="/Admin"  component={Admin} /> 
+          <Route path="/AdminAccueil"  component={AdminAccueil} /> 
+          <Route path="/AdminCandidats" components={AdminCandidats}/>
            {/*  <Route path="/Footer" component={Footer} />  */}
     </Switch>
     </>
