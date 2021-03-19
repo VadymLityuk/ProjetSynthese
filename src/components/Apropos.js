@@ -84,6 +84,7 @@ const authlistener = () => {
     )
 };
 
+     // <Dashboard />
 useEffect(() => {
    authlistener();
 }, []);
@@ -93,7 +94,6 @@ useEffect(() => {
      {user ? (
        <>
        
-      <Dashboard />
 <Admin handleLogOut={handleLogOut} />
 </>
    ) : (

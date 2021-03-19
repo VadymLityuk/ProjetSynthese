@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AdminCandidats() {
+function Reports() {
   return (
     <div className='reports'>
       <h1>Reports</h1>
@@ -8,4 +8,4 @@ function AdminCandidats() {
   );
 }
 
-export default AdminCandidats;
+export default Reports;
