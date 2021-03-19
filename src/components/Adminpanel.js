@@ -184,13 +184,14 @@ export default function Dashboard({handleLogOut}) {
             <ChevronLeftIcon />
           </IconButton>
         </div>
-        {/* 
+        
         <Divider />
         <List>{mainListItems}</List>
         <Divider />
         <List>{secondaryListItems}</List>
-        */}
+        
       </Drawer>
+      
     </>
   );
 }

@@ -29,13 +29,13 @@ import AdminAccueil from './AdminAccuel'
 const Admin = ({handleLogOut}) => {
    return(
       <>
+      
       <div  style={{padding: '15px 2px 4px 22px'}}>
       <Button variant="contained" color="secondary" onClick={handleLogOut}>
               Log Out
      </Button>
+     
      </div>
-      <Dashboard />
-      
     </>
    );
 };

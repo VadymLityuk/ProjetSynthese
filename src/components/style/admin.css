@@ -4,10 +4,53 @@
 
 
 
-
-
-
-
-.endpoint{
-    color: rgb(11, 96, 207);
-}
+ .navBar{
+    width: 190px;
+    min-height: 100vh;
+    background: #0d0d0d;
+    padding: 0.5px;
+    flex-direction: column;
+  }
+  ul {
+   color: #999;
+   list-style-type: none;
+   padding: 0;
+   width: 100%;
+ }
+  .created {
+    font-size: 0.6rem;
+    color: #404040;
+    text-align: center;
+    margin-top: auto;
+    padding: 0.8rem;
+    }
+   
+  li{
+    color: #bfbfbf;
+    border-radius: 5px;
+    padding: 0.8rem;
+    cursor: pointer;
+ 
+    
+  }
+  cursor{
+    color: white;
+  }
+  
+  li:hover{
+    background-color:  #666666;
+  
+  }
+  
+  
+  h1{
+    padding: 1rem;
+    color: white;
+  }
+ 
+ 
+ 
+ .main{
+   background-color:#0d0d0d;
+ 
+ }
