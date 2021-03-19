@@ -8,6 +8,8 @@ import Admin from './Admin';
 import Connexion from './Connexion';
 //import '../MainPage/page.css'
 
+//import '../MainPage/page.css'
+
 
   export default function Apropos() {
     const [user,setUser] = useState('');
