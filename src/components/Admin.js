@@ -9,7 +9,7 @@ import Navbar from './Navbar'
 import Home from './pages/Home';
 import Reports from './pages/Report';
 import Candidat from './pages/Candidat';
-
+import './Navbar.css'
 const Admin = ({handleLogOut}) => {
    return(
       <>

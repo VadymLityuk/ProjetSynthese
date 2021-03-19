@@ -3,7 +3,6 @@ import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { SidebarData } from './SiberData';
-import './Navbar.css';
 import { IconContext } from 'react-icons';
 
 function Navbar() {
