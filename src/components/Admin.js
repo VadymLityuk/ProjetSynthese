@@ -20,7 +20,7 @@ const Admin = ({handleLogOut}) => {
      </Button>
      </div>
          <Router>
-           <Navbar/>
+           <Navbar  />
         <Switch>
            <Route path='/' exact component={Home} />
           <Route path='/Reports' component={Reports} />
