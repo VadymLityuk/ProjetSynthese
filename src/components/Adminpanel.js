@@ -24,7 +24,6 @@ import Avatar from '@material-ui/core/Avatar';
 import logo from '../images/logo.png'
 import stager from '../images/avatar.jpg'
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
-import AdminCandidats from './AdminCandidats'
 
 import AdminAccueil from './AdminAccuel'
 

@@ -13,14 +13,13 @@ import Candidat from './pages/Candidat';
 const Admin = ({handleLogOut}) => {
    return(
       <>
-       
-      <div  style={{padding: '15px 2px 4px 22px'}}>
+         <Router>
+           <Navbar  />
+           <div  style={{float:'right',padding: '4px 0px 5px 5px'}}>
       <Button variant="contained" color="secondary" onClick={handleLogOut}>
               Log Out
      </Button>
      </div>
-         <Router>
-           <Navbar  />
         <Switch>
            <Route path='/' exact component={Home} />
           <Route path='/Reports' component={Reports} />
