@@ -159,7 +159,7 @@ export default function Dashboard({handleLogOut}) {
           </Typography>
           <div className={classes.root}>
           <Typography component="h1" variant="h6" style={{padding:'3px 9px 11px 0px'}} color="inherit" noWrap className={classes.title}>
-           Gwen Stacy
+          Nome Nome
           </Typography>
       <Avatar alt="Admin" src={stager} />
                </div>
