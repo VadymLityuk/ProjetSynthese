@@ -1,17 +1,10 @@
 import React from "react";
-import Container from "react-bootstrap/Container"; 
-import Row from "react-bootstrap/Row"; 
-import Col from "react-bootstrap/Col"; 
 import Button from '@material-ui/core/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Image from 'react-bootstrap/Image'
 import { Link } from "react-router-dom";
-import {NavLink} from 'react-router-dom'
-import Avatar from '@material-ui/core/Avatar';
 import myimage from '../images/avatar.jpg'
 import logoban from '../images/logoban.png'
 import office from '../images/office.png'
-import { makeStyles } from '@material-ui/core/styles';
 import './style/main.css'
 import './style/quotes.css'
 
@@ -73,7 +66,7 @@ constructor(props) {
     <div class="section-top-border">
 				<div class="row">
 					<div class="col-md-3">
-						<img   src={office} alt="" class="img-fluid"/>
+						<img style={{maxWidth: '400px'}}  src={office} alt="" class="img-fluid"/>
 					</div>
 					<div class="col-md-9 mt-sm-20 info">
                     <h5 > Étudiants</h5>

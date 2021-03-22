@@ -145,7 +145,7 @@ const useStyles = makeStyles((theme) => ({
                                         </div>
                                         <div class="jobs_conetent">
                                             <a ><h6>{val.jobtitle}</h6></a>
-                                            <a ><h8>{val.companyname}</h8></a>
+                                            <a ><h8 style={{color:'gray',fontWeight: 'bold'}}>{val.companyname}</h8></a>
                                             <div class="links_locat d-flex align-items-center">
                                                 <div class="location">
                                                     <p style={{color: 'gray',padding:'2px'}}>
@@ -224,7 +224,7 @@ const useStyles = makeStyles((theme) => ({
                                         </div>
                                         <div class="jobs_conetent">
                                             <a ><h5 style={{paddingLeft:'5px'}}>{val.name}</h5></a>
-                                            <a ><h8 style={{paddingLeft:'8px',color:'#00D363'}}>{val.jobtitle}</h8></a>
+                                            <a ><h8 style={{paddingLeft:'8px',color:'gray',fontWeight: 'bold'}}>{val.jobtitle}</h8></a>
                                             <div class="links_locat d-flex align-items-center">
                                                 <div class="location">
                                                     <p style={{color: 'gray'}}>
