@@ -88,6 +88,7 @@ const useStyles = makeStyles((theme) => ({
                                }}/> 
                                
         <Link to={"/Offre"}>
+            
                     <a style={{fontWeight:'400', color: 'white'}}>  <ArrowLeftIcon/> Voir tous les offres</a>
         </Link>
                         </div>
@@ -137,7 +138,7 @@ const useStyles = makeStyles((theme) => ({
             <div class="jobs_right">
                 <div class="apply_now">
                     <Link to={"/DetailsStagiers"}>
-                <Button class="boxed-btn3" variant="contained">Détails</Button>
+                    <Button style={{backgroundColor: '#00D363',color: 'white' }} variant="contained" > Détails</Button>
                 </Link>
                 </div>
                 <div class="date">
@@ -174,7 +175,7 @@ const useStyles = makeStyles((theme) => ({
                                     <div class="jobs_right">
                                         <div class="apply_now">
                                             <a class="heart_mark" ><FavoriteIcon /></a>
-                                            <Button  class="boxed-btn3" variant="contained">Apply Now</Button>
+                                            <Button  class="" variant="contained">Apply Now</Button>
                                         </div>
                                         <div class="date">
                                             <p>31 Mars 2021</p>

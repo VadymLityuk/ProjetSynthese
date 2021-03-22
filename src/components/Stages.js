@@ -10,7 +10,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import './style/main.css'
-import './style/quotes.css'
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
@@ -21,7 +20,6 @@ import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 import Header from './Header'
 import Footer from './Footer'
 import './style/offre.scss'
-import './style/slider.scss'
 
 const avatar= {
   avatar: require("../images/ava2.JPG"),
@@ -186,7 +184,7 @@ const useStyles = makeStyles((theme) => ({
                 <div class="apply_now">
                     <a class="heart_mark"><FavoriteIcon /></a>
                     <Link to={"/DetailsStage"}>
-                    <Button class="boxed-btn3" variant="contained">Détails</Button>
+                    <Button style={{backgroundColor: '#00D363',color: 'white' }} variant="contained" > Détails</Button>
                     </Link>
                 </div>
                 <div class="date">

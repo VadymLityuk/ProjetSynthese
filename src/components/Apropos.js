@@ -7,7 +7,7 @@ import fire from '../fire'
 import Admin from './Admin';
 import Connexion from './Connexion';
 //import '../MainPage/page.css'
-import Dashboard from './Adminpanel'
+//import Dashboard from './Adminpanel'
 //import '../MainPage/page.css'
 
 
@@ -94,7 +94,7 @@ useEffect(() => {
      {user ? (
        <>
        
-<Admin handleLogOut={handleLogOut} />
+<Admin />
 </>
    ) : (
      <>

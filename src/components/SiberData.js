@@ -2,42 +2,37 @@ import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
+import * as BiIcons from 'react-icons/bi'
 
 export const SidebarData = [
   {
-    title: 'Home',
+    title: 'Accueil',
     path: '/',
     icon: <AiIcons.AiFillHome />,
     cName: 'nav-text'
   },
   {
-    title: 'Reports',
-    path: '/reports',
-    icon: <IoIcons.IoIosPaper />,
+    title: 'Offres de Stage',
+    path: '/offrestage',
+    icon: <BiIcons.BiRightArrowCircle />,
     cName: 'nav-text'
   },
   {
-    title: 'Products',
-    path: '/products',
-    icon: <FaIcons.FaCartPlus />,
+    title: 'Demandes de Stage',
+    path: '/candidats',
+    icon: <BiIcons.BiLeftArrowCircle />,
     cName: 'nav-text'
   },
   {
-    title: 'Team',
-    path: '/team',
-    icon: <IoIcons.IoMdPeople />,
+    title: 'Candidats',
+    path: '/candidats',
+    icon: <IoIcons.IoMdSchool />,
     cName: 'nav-text'
   },
   {
-    title: 'Messages',
+    title: 'Entreprises',
     path: '/messages',
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    icon: <IoIcons.IoMdPeople  />,
     cName: 'nav-text'
   },
-  {
-    title: 'Support',
-    path: '/support',
-    icon: <IoIcons.IoMdHelpCircle />,
-    cName: 'nav-text'
-  }
 ];

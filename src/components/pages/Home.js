@@ -20,6 +20,8 @@ import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 import Box from '@material-ui/core/Box';
 import clsx from 'clsx';
 
+import * as TiIcons from 'react-icons/ti';
+import * as AiIcons from 'react-icons/ai';
 
 
 function Copyright() {
@@ -134,9 +136,23 @@ const Home = ( ) => {
    return(
       <>
 <main className={classes.content}>
-    
+        
         <div className={classes.appBarSpacer} />
         <Container maxWidth="lg" className={classes.container}>
+        <navbar>    <div className="menubars">
+          <Link to='#' className='menu-bars' >
+          <Button style={{color:'#1a83ff',fontSize: '18px'}}>
+            <AiIcons.AiOutlinePlus />
+           <a> Ajouter une offre</a> 
+           </Button>
+          </Link>
+          <Link to='#' className='menu-bars' >
+            <Button style={{color:'#1a83ff',fontSize: '18px'}}>
+            <AiIcons.AiOutlinePlus  />
+           <a> Ajouter une demande de stage</a> 
+           </Button>
+          </Link>
+          </div></navbar>
           <Grid container spacing={3}>
             {/* Chart */}
             <Grid item xs={12} md={8} lg={9}>

@@ -176,7 +176,7 @@ const useStyles = makeStyles((theme) => ({
         <Grid item lg={12} xs={12}>
             <Link to={"/Stages"}>
                 <div style={{padding: '13px'}}>
-        <Button style={{boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }} class="boxed-btn3" variant="contained" >voir tous les offres</Button>
+                <Button style={{backgroundColor: '#00D363',color: 'white',boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }} variant="contained"  > voir tous les offres</Button>
         </div>
         </Link>
         <hr/>
@@ -257,7 +257,7 @@ const useStyles = makeStyles((theme) => ({
         
     <Link  to={"/Stagier"}>
                 <div style={{padding: '29px'}}>
-        <Button style={{boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }} class="boxed-btn3" variant="contained">voir tous les stagiaires</Button>
+                <Button style={{backgroundColor: '#00D363',color: 'white',boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }} variant="contained"  > voir tous les offres</Button>
         </div>
         </Link>
 				<div class="row">

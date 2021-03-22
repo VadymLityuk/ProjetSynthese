@@ -156,7 +156,7 @@ const useStyles = makeStyles((theme) => ({
             <div class="jobs_right">
                 <div class="apply_now">
                     <a class="heart_mark"><FavoriteIcon /></a>
-                    <Button class="boxed-btn3" variant="contained">Détails</Button>
+                    <Button style={{backgroundColor: '#00D363',color: 'white' }} variant="contained" > Détails</Button>
                 </div>
                 <div class="date">
                     <p> {val.date}</p>

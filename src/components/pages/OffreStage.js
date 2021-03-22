@@ -127,7 +127,7 @@ function Copyright() {
 
   
 
-const Candidat = ( ) => {
+const Report = ( ) => {
 
 
     const classes = useStyles();
@@ -136,9 +136,8 @@ const Candidat = ( ) => {
    return(
       <>
 <main className={classes.content}>
-       
+        
         <div className={classes.appBarSpacer} />
-        <h1>Candidats</h1>
         <Container maxWidth="lg" className={classes.container}>
           <Grid container spacing={3}>
             {/* Chart */}
@@ -168,5 +167,5 @@ const Candidat = ( ) => {
 
 
 
-export default Candidat;
+export default Report;
 

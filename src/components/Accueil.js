@@ -59,9 +59,7 @@ constructor(props) {
                             <h3  data-wow-duration="1s" data-wow-delay=".3s">Trouves votre stage Aujourd'hui!</h3>
                             <p data-wow-duration="1s" data-wow-delay=".4s">L'unique répertoire de stages et de stagiaires au Québec.Trouves votre stage ou des stagiaires </p>
                             <Link to={"/Offre"}>
-                            <Button style={{boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }} class="boxed-btn3" variant="contained" >
-                            Trouve un stage
-                            </Button>
+                            <Button style={{backgroundColor: '#00D363',color: 'white' }} variant="contained" >  Trouve un stage</Button>
                             </Link>
                         </div>
                     </div>

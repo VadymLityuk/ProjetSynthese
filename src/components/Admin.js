@@ -7,23 +7,27 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './style/admin.css'
 import Navbar from './Navbar'
 import Home from './pages/Home';
-import Reports from './pages/Report';
+import Reports from './pages/OffreStage';
 import Candidat from './pages/Candidat';
 import './Navbar.css'
-const Admin = ({handleLogOut}) => {
+
+import fire from '../fire'
+
+const handleLogOut = () => {
+   fire.auth().signOut();
+};
+
+
+const Admin = () => {
    return(
       <>
          <Router>
-           <Navbar  />
-           <div  style={{float:'right',padding: '4px 0px 5px 5px'}}>
-      <Button variant="contained" color="secondary" onClick={handleLogOut}>
-              Log Out
-     </Button>
-     </div>
+           <Navbar handleLogOut={handleLogOut} />
         <Switch>
            <Route path='/' exact component={Home} />
-          <Route path='/Reports' component={Reports} />
-          <Route path='/products' component={Candidat} />
+          <Route path='/offrestage' component={Reports} />
+          {/*<Route path='/demande' component={Reports} /> */}
+          <Route path='/candidats' component={Candidat} />
         </Switch>
       </Router>
     </>

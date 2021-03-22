@@ -1,7 +1,6 @@
 .navbar {
-    background-color: #1a83ff;
-    height: 80px;
-    display: flex;
+    background-color: rgb(250, 249, 249);
+    height: 1px;
     justify-content: start;
     align-items: center;
   }
@@ -11,7 +10,14 @@
     font-size: 2rem;
     background: none;
   }
-  
+  .logout{
+
+    left: 66%;
+    font-size: 2rem;
+    background: none;
+
+  }
+ 
   .nav-menu {
     background-color: #1a83ff;
     width: 250px;
