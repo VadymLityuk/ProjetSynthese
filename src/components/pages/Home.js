@@ -36,7 +36,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
       },
     },
     toolbar: {
-      paddingRight: 24, // keep right padding when drawer closed
+      paddingRight: 24, // garder le bon padding lorsque le drawer est fermé
     },
     toolbarIcon: {
       display: 'flex',
