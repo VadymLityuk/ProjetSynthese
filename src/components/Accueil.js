@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
 import myimage from '../images/avatar.jpg'
 import logoban from '../images/logoban.png'
-import office from '../images/office.png'
+import office from '../images/ppl.png'
 import './style/main.css'
 import './style/quotes.css'
 

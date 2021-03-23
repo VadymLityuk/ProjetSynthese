@@ -1,13 +1,10 @@
 import React, {useState} from 'react';
 import '../App/App.scss';
 import {Accueil} from '../Accueil'
-import  {Container} from 'react-bootstrap';
-import Header from '../Header'
 import Apropos from '../Apropos'
 import OffreStage from '../OffreStage'
 import Stages from '../Stages'
 import Stagier from '../Stagers'
-import Footer from '../Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useLocation,withRouter, Route, Switch } from "react-router-dom";
 import DetailsStage from '../DetailsStage'

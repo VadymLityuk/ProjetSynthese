@@ -7,6 +7,8 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import './style/main.css'
 import './style/quotes.css'
+import './style/offre.scss'
+import './style/slider.scss'
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
@@ -16,8 +18,6 @@ import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 
 import Header from './Header'
 import Footer from './Footer'
-import './style/offre.scss'
-import './style/slider.scss'
 
 const avatar= {
   avatar: require("../images/ava2.JPG"),
