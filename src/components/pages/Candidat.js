@@ -23,19 +23,6 @@ import clsx from 'clsx';
 import * as TiIcons from 'react-icons/ti';
 import * as AiIcons from 'react-icons/ai';
 
-
-function Copyright() {
-    return (
-      <Typography variant="body2" color="textSecondary" align="center">
-        {'Copyright © '}
-        <Link color="inherit" href="https://github.com/VadymLityuk" target="_blank">
-        Vadym Lityuk
-        </Link>{' '}
-        {new Date().getFullYear()}
-        {'.'}
-      </Typography>
-    );
-  }
   
   const drawerWidth = 240;
   
@@ -157,9 +144,6 @@ const Candidat = ( ) => {
               </Paper>
             </Grid>
           </Grid>
-          <Box pt={4}>
-            <Copyright />
-          </Box>
         </Container>
       </main>
     </>
