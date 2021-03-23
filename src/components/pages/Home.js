@@ -124,17 +124,24 @@ export class Home extends Component {
           {"name":"Sonica",
            "jobtitle":"Front-End Developpeur",
            "time":"Temps plein",
-           "address":"Quebec",
+           "address":"Trois-Rivières",
            "date":"16 Mars 2021",
            "img":"https://thenetmencorp.com/wp-content/uploads/2017/08/LO_2016-03-450x450.jpg"
            },
          {"name":"QC AYANS",
             "jobtitle":"Opérateur Presse",
             "time":"Temps partiel",
-            "address":"Trois-Rivières",
+            "address":"Quebec",
             "date":"1 avril 2021",
             "img":"https://thenetmencorp.com/wp-content/uploads/2020/01/LO_2018-01_SERVICES_INTERNET_IT_RETAIL_INITIAL-450x449.jpg"
            },
+           {"name":"Pixel Anim",
+           "jobtitle":"Opérateur Presse",
+           "time":"Temps partiel",
+           "address":"Kyiv",
+           "date":"1 avril 2021",
+           "img":"https://thenetmencorp.com/wp-content/uploads/2020/01/LO_2018-01_SERVICES_INTERNET_IT_RETAIL_INITIAL-450x449.jpg"
+          },
         ],
       }
      };
@@ -183,7 +190,7 @@ export class Home extends Component {
   
       this.refs.myForm.reset();
       this.refs.name.focus();
-      toast.error("Suppression avec success!!! " + datas.name);
+      toast.error("Suppression avec success");
     }
   
     Ajout = (i) => {
