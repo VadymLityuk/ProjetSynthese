@@ -256,8 +256,8 @@ const useStyles = makeStyles((theme) => ({
     <div class="section-top-border">
         
     <Link  to={"/Stagier"}>
-                <div style={{padding: '29px'}}>
-                <Button style={{backgroundColor: '#00D363',color: 'white',boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }} variant="contained"  > voir tous les offres</Button>
+                <div style={{padding: '26px'}}>
+                <Button style={{backgroundColor: '#00D363',color: 'white',boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }} variant="contained"  > voir tous les stagiaires</Button>
         </div>
         </Link>
 				<div class="row">
