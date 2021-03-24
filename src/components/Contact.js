@@ -1,18 +1,15 @@
 import React, { Component } from "react";
 import axios from "axios";
 import TextField from "@material-ui/core/TextField";
-import Image from 'react-bootstrap/Image'
-import { Link } from "react-router-dom";
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import {NavLink} from 'react-router-dom'
 import myimage from '../images/sign.png'
 
 import Button from '@material-ui/core/Button';
 
 import Header from './Header'
 import Footer from './Footer'
+
+
 export default class Contact extends Component {
   state = {
     name: "",

@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import Container from "react-bootstrap/Container"; 
 import { withStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
@@ -13,14 +12,12 @@ import clsx from 'clsx';
 import * as AiIcons from 'react-icons/ai';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import TextField from '@material-ui/core/TextField';
 import '../style/main.css'
 import '../style/quotes.css'
 import '../style/offre.scss'
 import '../style/slider.scss'
 
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
-import FavoriteIcon from '@material-ui/icons/Favorite';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 
   const drawerWidth = 240;
