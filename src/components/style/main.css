@@ -23,7 +23,6 @@ a:focus,
   outline: none;
 }
 
-/* line 40, ../../Arafath/CL/December/235. Job board/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Roboto", sans-serif;
   color: #191d34;
@@ -65,26 +64,22 @@ h6 a {
 }
 
 @media (max-width: 767px) {
-  /* line 20, ../../Arafath/CL/December/235. Job board/HTML/scss/_header.scss */
   .header-area .main-header-area.details_nav_bg {
     padding-bottom: 10px;
   }
 }
 
-/* line 27, ../../Arafath/CL/December/235. Job board/HTML/scss/_header.scss */
 .header-area .main-header-area.details_nav {
   background: #001D38;
 }
 
 @media (max-width: 767px) {
-  /* line 16, ../../Arafath/CL/December/235. Job board/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 10px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 16, ../../Arafath/CL/December/235. Job board/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 10px;
   }

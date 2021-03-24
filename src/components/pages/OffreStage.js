@@ -127,7 +127,7 @@ function Copyright() {
 
   
 
-const Report = ( ) => {
+const Offre = ( ) => {
 
 
     const classes = useStyles();
@@ -167,5 +167,5 @@ const Report = ( ) => {
 
 
 
-export default Report;
+export default Offre;
 
