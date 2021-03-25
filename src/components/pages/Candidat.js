@@ -16,6 +16,7 @@ import '../style/quotes.css'
 import '../style/offre.scss'
 import '../style/slider.scss'
 
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import SchoolIcon from '@material-ui/icons/School';
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
@@ -80,7 +81,7 @@ export class Candidat extends Component {
         act: 0, 
         index : '',
         datas: [
-          {"name":"Sonica",
+          {"name":"Liane Legrand",
            "jobtitle":"Front-End Developpeur",
            "time":"Temps plein",
            "address":"Trois-Rivières",
@@ -88,18 +89,18 @@ export class Candidat extends Component {
            "school":"Cegep Sainte-Foy",
            "img":"https://scontent.fymy1-1.fna.fbcdn.net/v/t1.0-9/164833843_2824831727759082_1334690298931737482_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=0debeb&_nc_ohc=-tJ779QwWisAX-BTUK5&_nc_ht=scontent.fymy1-1.fna&oh=d9cd93466bd5d3a503323389054eb133&oe=6082B76E"
            },
-         {"name":"QC AYANS",
-            "jobtitle":"Opérateur Presse",
+         {"name":"Anne Legault",
+            "jobtitle":"Full-Stack Developpeur",
             "time":"Temps partiel",
             "address":"Quebec",
             "date":"1 avril 2021",
            "school":"Cegep Quebec",
             "img":"https://scontent.fymy1-1.fna.fbcdn.net/v/t1.0-9/161579567_2819033345005587_4846364005569011113_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=0debeb&_nc_ohc=YcfIkboHK-kAX8bTJp6&_nc_ht=scontent.fymy1-1.fna&oh=37202df3d10951f74f354b214338c345&oe=60825E60"
            },
-           {"name":"Pixel Anim",
+           {"name":"Andrée Lavigne",
            "jobtitle":"Opérateur Presse",
            "time":"Temps partiel",
-           "address":"Kyiv",
+           "address":"Montreal",
            "date":"1 avril 2021",
            "school":"Cegep Sainte-Foy",
            "img":"https://scontent.fymy1-1.fna.fbcdn.net/v/t1.0-9/160142646_2819033361672252_1761895350408269161_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=0debeb&_nc_ohc=ofeRkravfLAAX93Yv7m&_nc_ht=scontent.fymy1-1.fna&oh=3e62d06cec45ab40d4aeb055c464c83d&oe=60823C65"
@@ -199,10 +200,11 @@ export class Candidat extends Component {
         <div className={classes.appBarSpacer} />
         <Container  className={classes.container}>
           <Grid container spacing={3}>
-            {/* Chart */}
             <Grid item xs={12}>
             <div className="App">
-              <div style={{}}>
+              <h3>Liste des candidats <KeyboardArrowDownIcon/></h3>
+              <hr/>
+              <div style={{paddingTop: '12px'}}>
               { this.state.showForm ? <div class="single_field">
         <form ref="myForm" className="myForm">
          <input type="text" ref="name" placeholder="name" className="formField"/>
@@ -211,7 +213,7 @@ export class Candidat extends Component {
           <input type="date" ref="date" placeholder="date" className="formField" />
           <input type="text" ref="school" placeholder="school" className="formField" />
           <input type="text" ref="img" placeholder="img" className="formField" />
-          <Button style={{color:'#00D363'}} onClick={(e)=>this.Soumettre(e)} className="myButton">submit </Button>
+          <Button style={{color:'#00D363'}} onClick={(e)=>this.Soumettre(e)} className="myButton">soumettre </Button>
         </form>
         <hr/>
         </div>:null}

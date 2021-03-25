@@ -24,9 +24,9 @@ const Admin = () => {
       <>
          <Router>
            <Navbar handleLogOut={handleLogOut} />
-        <Switch>
+           <Switch>
            <Route path='/' exact component={Home} />
-          <Route path='/demande' component={Demande} />
+           <Route path='/demande' component={Demande} />
           <Route path='/offre' component={Offre}/> 
           <Route path='/candidats' component={Candidat} />
         </Switch>

@@ -13,13 +13,13 @@ export const SidebarData = [
   },
   {
     title: 'Offres de Stage',
-    path: '/offrestage',
+    path: '/offre',
     icon: <BiIcons.BiRightArrowCircle />,
     cName: 'nav-text'
   },
   {
     title: 'Demandes de Stage',
-    path: '/candidats',
+    path: '/demande',
     icon: <BiIcons.BiLeftArrowCircle />,
     cName: 'nav-text'
   },

@@ -13,6 +13,7 @@ import DATA from '../offredata.json'
 import {useState} from 'react'
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import Header from './Header'
 import Footer from './Footer'
 import './style/offre.scss'
