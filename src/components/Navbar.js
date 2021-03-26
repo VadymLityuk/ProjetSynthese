@@ -6,12 +6,10 @@ import { SidebarData } from './SiberData';
 import { IconContext } from 'react-icons';
 import logo from '../images/logo.png'
 import Badge from '@material-ui/core/Badge';
-import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import stager from '../images/avatar.jpg'
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
 import Avatar from '@material-ui/core/Avatar';
 import Tooltip from '@material-ui/core/Tooltip';
 
