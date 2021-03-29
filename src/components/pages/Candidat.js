@@ -208,10 +208,10 @@ export class Candidat extends Component {
               { this.state.showForm ? <div class="single_field">
         <form ref="myForm" className="myForm">
          <input type="text" ref="name" placeholder="Nom" className="formField"/>
-          <input type="text" ref="address" placeholder="adresse" className="formField" />
-          <input type="text" ref="jobtitle" placeholder="profession" className="formField" />
+          <input type="text" ref="address" placeholder="Adresse" className="formField" />
+          <input type="text" ref="jobtitle" placeholder="Profession" className="formField" />
           <input type="date" ref="date" placeholder="Date" className="formField" />
-          <input type="text" ref="school" placeholder="éducation" className="formField" />
+          <input type="text" ref="school" placeholder="Éducation" className="formField" />
           <input type="text" ref="img" placeholder="image" className="formField" />
           <Button style={{color:'#00D363'}} onClick={(e)=>this.Soumettre(e)} className="myButton">soumettre </Button>
         </form>
@@ -245,6 +245,9 @@ export class Candidat extends Component {
                     </div>
               <Button color="secondary" onClick={()=>this.Suppression(i)} className="myListButton">Supprimer </Button>
               <Button style={{color:'#00D363'}} onClick={()=>this.Ajout(i)} className="myListButton">Modifier </Button>
+              <Link to={'/details'}>
+              <Button color="primary" className="myListButton">Details </Button>
+              </Link>
                 </div>
             </div>
             </div>
@@ -252,9 +255,9 @@ export class Candidat extends Component {
       </div> </Grid>
           </Grid>
           <form ref="myForm" className="myForm" style={{visibility:'hidden'}}>
-         <input type="text" ref="name" placeholder="name" className="formField"/>
-          <input type="text" ref="address" placeholder="address" className="formField" />
-          <input type="text" ref="jobtitle" placeholder="jobtitle" className="formField" />
+         <input type="text" ref="name" placeholder="Nom" className="formField"/>
+          <input type="text" ref="address" placeholder="adresse" className="formField" />
+          <input type="text" ref="jobtitle" placeholder="profession" className="formField" />
           <button onClick={(e)=>this.Soumettre(e)} className="myButton">submit </button>
         </form>
         </Container>

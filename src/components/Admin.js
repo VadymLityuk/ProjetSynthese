@@ -13,6 +13,8 @@ import Offre from './pages/OffreStage'
 import './Navbar.css'
 
 import fire from '../fire'
+import  Details  from "./pages/Details";
+import  DetailsD  from "./pages/DetailsDemande";
 
 const handleLogOut = () => {
    fire.auth().signOut();
@@ -29,6 +31,8 @@ const Admin = () => {
            <Route path='/demande' component={Demande} />
           <Route path='/offre' component={Offre}/> 
           <Route path='/candidats' component={Candidat} />
+          <Route path='/details' component={Details} />
+          <Route path='/detailsd' component={DetailsD} />
         </Switch>
       </Router>
     </>

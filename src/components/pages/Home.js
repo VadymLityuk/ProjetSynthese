@@ -102,15 +102,15 @@ export class Home extends Component {
            "date":"16 Mars 2021",
            "school":"Cegep de Trois-Rivières",
            },
-         {"name":"Matthieu Tremblay",
-            "jobtitle":"Opérateur Presse",
+         {"name":"Anne Legault",
+            "jobtitle":"Full-Stack Developpeur",
             "time":"Temps partiel",
             "address":"Quebec",
             "date":"1 avril 2021",
            "school":"Université Laval",
            },
            {"name":"Andrée Lavigne",
-           "jobtitle":"Fullstack Developpeur",
+           "jobtitle":"Opérateur Presse",
            "time":"Temps partiel",
            "address":"Montreal",
            "date":"1 avril 2021",
@@ -347,21 +347,21 @@ export class Home extends Component {
        { this.state.showForm ? 
         <div class="single_field"> 
         <form ref="myForm" className="myForm">
-       <input type="text" ref="name" placeholder="name" className="formField"/>
-        <input type="text" ref="address" placeholder="address" className="formField" />
-        <input type="text" ref="jobtitle" placeholder="jobtitle" className="formField" />
-        <input type="date" ref="date" placeholder="date" className="formField" />
+       <input type="text" ref="name" placeholder="Nom" className="formField"/>
+        <input type="text" ref="address" placeholder="Adresse" className="formField" />
+        <input type="text" ref="jobtitle" placeholder="Profession" className="formField" />
+        <input type="date" ref="date" placeholder="Date" className="formField" />
         <Button style={{paddingBottom: '8px',color:'#00D363'}}  onClick={(e)=>this.Soumettre(e)} className="myButton">Soumettre</Button>
       </form>  
        </div> :null}
        { this.state.showStudent ? 
         <div class="single_field"> 
         <form ref="myForm" className="myForm">
-       <input type="text" ref="name" placeholder="name" className="formField"/>
-        <input type="text" ref="address" placeholder="address" className="formField" />
-        <input type="text" ref="jobtitle" placeholder="jobtitle" className="formField" />
-        <input type="date" ref="date" placeholder="date" className="formField" />
-        <input type="text" ref="school" placeholder="school" className="formField" />
+       <input type="text" ref="name" placeholder="Nom" className="formField"/>
+        <input type="text" ref="address" placeholder="Adresse" className="formField" />
+        <input type="text" ref="jobtitle" placeholder="Profession" className="formField" />
+        <input type="date" ref="date" placeholder="Date" className="formField" />
+        <input type="text" ref="school" placeholder="Éducation" className="formField" />
         <Button style={{paddingBottom: '8px',color:'#00D363'}}  onClick={(e)=>this.SubmitStudent(e)} className="myButton">Soumettre </Button>
       </form>  
        </div> :null}
