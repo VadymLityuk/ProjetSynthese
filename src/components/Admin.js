@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/main.css'
 import './style/quotes.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './style/admin.css'
 import Navbar from './Navbar'
 import Home from './pages/Home';
 import Demande from './pages/Demande';

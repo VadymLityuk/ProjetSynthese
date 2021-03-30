@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import stager from '../../images/avatar.jpg'
+import stager from '../../images/ava2.JPG'
 import {useState} from 'react'
 import SchoolIcon from '@material-ui/icons/School';
 import Button from '@material-ui/core/Button';

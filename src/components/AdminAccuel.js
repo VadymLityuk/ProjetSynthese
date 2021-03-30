@@ -20,7 +20,6 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 import DATA from '../offredata.json'
 import {useState} from 'react'
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
-import './style/admin.css'
 import Box from '@material-ui/core/Box';
 import clsx from 'clsx';
 
