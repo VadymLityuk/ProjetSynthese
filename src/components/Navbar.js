@@ -29,7 +29,7 @@ function Navbar({handleLogOut}) {
           </Link>
           </Tooltip>
           <div  className='menu-bars' style={{color:'#414141'}}>
-       <a style={{fontSize: '21px',padding: '8px',fontWeight:'bold'}}>Vadym Lityuk</a>
+       <a style={{fontSize: '21px',padding: '8px',fontWeight:'bold'}}>John Doe</a>
           </div>
           <Avatar alt="Admin" src={stager} />
          <KeyboardArrowDownIcon style={{color:'#414141'}} />
