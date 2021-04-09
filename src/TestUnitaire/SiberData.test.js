@@ -1,16 +1,15 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Stages from '../components/Stages'
+import OffreStage from '../components/OffreStage'
 import { render } from '@testing-library/react';
-//import "jest-dom/extend-expect"
 
 
 
 
-describe('Stages.js', () => {
-    it('path pour le page de Stage, validation de composant', () => {
-      const wrapper = shallowMount(Stages, {
+describe('Siber Data test de data const', () => {
+    it('Siber Data test du composant', () => {
+      const wrapper = shallowMount(OffreStage, {
         data() {
           return {
             handleLogOut: true,
