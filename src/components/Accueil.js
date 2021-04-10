@@ -88,8 +88,8 @@ constructor(props) {
                                 <hr/>
                             <h6>S'inscrire ou se connecter</h6>
                             <Link  to={"/Apropos"}>
-                            <Button variant="contained" style={{ backgroundColor:'#3c82df',color: 'white'}}>
-                            Accéder à votre compte 
+                            <Button  style={{color: '#3c82df'}}>
+                            Inscrivez-vous maintenant 
                             </Button>    
                             </Link> 
                         </div>
