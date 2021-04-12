@@ -20,7 +20,7 @@ npm install
 npm start
 
 ### construire build pour la production et afficher le rapport de l'analyseur de bundle
-npm run build --report
+npm run build 
 
 ### exécuter des tests unitaires
 npm run test 
@@ -34,7 +34,9 @@ GitHub Pages
 ### Mes Étapes de déploiement
 
 1.npm run build
+
 2.cd dist/git add ./git push -m "mon commit" 
+
 3.git push -u origin master/main
 
 Lien vers le site web : https://vadymlityuk.github.io/ProjetSynthese/build/index.html#/
