@@ -11,9 +11,3 @@ it("renders without crashing", ()=>{
 })
 
 
-/*
-it("renders page correctement",()=>{
-  const {getByTestid} = render(<Accueil handleLogOut="true"/>)
-  expect(getByTestid('function')).toHaveTextContent("true")
-})
-*/
