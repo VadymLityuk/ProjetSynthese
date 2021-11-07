@@ -8,6 +8,7 @@ React
 comme pertinent, car la profession dedéveloppeur Front-end sur le marché dutravail actuel est très étroitement liée React.
 Le but de mon projet: Développer un sitefonctionnelle
 pour trouver un stage et desstagiaires, y compris des pages publiquesainsi qu'un dashboard d'administration, 
+
 quipeut être saisi par login ou inscription
 
 
